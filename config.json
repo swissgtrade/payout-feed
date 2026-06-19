@@ -1,0 +1,43 @@
+{
+  "payout_states": ["Approved", "Processed"],
+  "fetch_all_statuses": true,
+  "page_size": 50,
+  "max_pages": 200,
+  "max_per_run": 20,
+  "discord_delay_seconds": 2,
+  "certificate": {
+    "template": "assets/template-payout.png",
+    "design_size": [1500, 1075],
+    "privacy": "first_name_only",
+    "fields": {
+      "amount": {
+        "font": "Roboto-Black.ttf",
+        "size": 124,
+        "color": "FFC900",
+        "position": [750, 436]
+      },
+      "program_name": {
+        "font": "Roboto-Regular.ttf",
+        "size": 25,
+        "color": "FFFFFF",
+        "position": [750, 633]
+      },
+      "username": {
+        "font": "Roboto-Medium.ttf",
+        "size": 70,
+        "color": "E9E9E9",
+        "position": [750, 795]
+      },
+      "date": {
+        "font": "Roboto-Regular.ttf",
+        "size": 26,
+        "color": "FFFFFF",
+        "position": [1220, 974]
+      }
+    },
+    "qr": {
+      "enabled": false,
+      "position": [73, 1320]
+    }
+  }
+}
