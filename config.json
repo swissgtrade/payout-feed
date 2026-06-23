@@ -5,6 +5,15 @@
   "max_pages": 200,
   "max_per_run": 20,
   "discord_delay_seconds": 2,
+  "wordpress": {
+    "site_url": "https://swissfirmup.com",
+    "post_type": "firmup_payout",
+    "post_status": "publish",
+    "meta_key_payout_id": "firmup_payout_id",
+    "title_template": "{first_name} — {amount}",
+    "delay_seconds": 2,
+    "max_per_run": 20
+  },
   "certificate": {
     "template": "assets/template-payout.png",
     "design_size": [1500, 1075],

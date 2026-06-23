@@ -1,0 +1,105 @@
+.firmup-payout-carousel {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.firmup-payout-carousel--empty {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.firmup-payout-carousel__swiper {
+  width: 100%;
+  padding-bottom: 2.75rem;
+  cursor: grab;
+}
+
+.firmup-payout-carousel__swiper:active {
+  cursor: grabbing;
+}
+
+.firmup-payout-carousel__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.firmup-payout-carousel__card {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 12px;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  will-change: transform;
+}
+
+.firmup-payout-carousel__card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  box-shadow: 0 0 0 0 rgba(255, 201, 0, 0);
+  transition: box-shadow 0.35s ease;
+  pointer-events: none;
+}
+
+.firmup-payout-carousel__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.45);
+  transition: filter 0.35s ease, box-shadow 0.35s ease;
+}
+
+@media (hover: hover) {
+  .firmup-payout-carousel__slide:hover .firmup-payout-carousel__card {
+    transform: translateY(-8px) scale(1.02);
+  }
+
+  .firmup-payout-carousel__slide:hover .firmup-payout-carousel__card::after {
+    box-shadow:
+      0 0 36px rgba(255, 201, 0, 0.2),
+      inset 0 0 0 1px rgba(255, 201, 0, 0.3);
+  }
+
+  .firmup-payout-carousel__slide:hover .firmup-payout-carousel__image {
+    filter: brightness(1.06);
+    box-shadow: 0 24px 56px rgba(0, 0, 0, 0.55);
+  }
+}
+
+.firmup-payout-carousel__pagination {
+  bottom: 0 !important;
+}
+
+.firmup-payout-carousel .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.28);
+  opacity: 1;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.firmup-payout-carousel .swiper-pagination-bullet:hover {
+  transform: scale(1.25);
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.firmup-payout-carousel .swiper-pagination-bullet-active {
+  background: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .firmup-payout-carousel__card {
+    max-width: 360px;
+  }
+}
+
+@media (max-width: 767px) {
+  .firmup-payout-carousel__card {
+    max-width: 300px;
+  }
+}

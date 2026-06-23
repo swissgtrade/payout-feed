@@ -1,0 +1,13 @@
+FirmUp Payouts — Installation (swissfirmup.com)
+================================================
+
+1. WordPress admin → Extensions → Ajouter une extension
+2. Téléverser une extension → choisir firmup-payouts.zip
+3. Installer → Activer
+4. Vérifier : menu "Payouts" à gauche dans l'admin
+5. Elementor → page d'accueil → widget Shortcode :
+   [firmup_payout_carousel slides="3" autoplay="5"]
+6. Publier la page
+
+Le carrousel affiche "Aucun payout publié" tant que l'équipe technique
+n'a pas lancé la synchronisation automatique.

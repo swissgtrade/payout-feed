@@ -2,7 +2,7 @@
 
 
 
-Publie automatiquement les nouveaux certificats de payout sur Discord (image générée depuis le template FirmUp, prénom uniquement).
+Publie automatiquement les nouveaux certificats de payout sur Discord et WordPress (image générée depuis le template FirmUp, prénom uniquement).
 
 
 
@@ -14,7 +14,7 @@ Publie automatiquement les nouveaux certificats de payout sur Discord (image gé
 
 2. Génère l'image depuis `assets/template-payout.png` + données API
 
-3. Publie l'image sur Discord (webhook)
+3. Publie l'image sur Discord (webhook) et/ou WordPress (REST API)
 
 
 
@@ -46,7 +46,16 @@ Publie automatiquement les nouveaux certificats de payout sur Discord (image gé
 
 | `sync.py` | Sync API → Discord |
 
-| `config.json` | Positions texte, statuts payout |
+| `sync_wordpress.py` | Sync API → WordPress |
+
+| `wordpress_client.py` | Client REST WordPress (mode dry-run inclus) |
+
+| `wordpress/` | mu-plugin PHP + carrousel Swiper pour Elementor |
+| `dist/firmup-payouts.zip` | Plugin prêt à téléverser dans wp-admin |
+
+| `scripts/simulate_wordpress.py` | Aperçu HTML local du carrousel |
+
+| `config.json` | Positions texte, statuts payout, config WordPress |
 
 
 
@@ -67,6 +76,46 @@ Dans **Settings → Secrets and variables → Actions** :
 | `API_KEY` | votre clé `X-Client-Key` |
 
 | `DISCORD_WEBHOOK_URL` | `https://discord.com/api/webhooks/...` |
+
+| `WP_USERNAME` | `swissgtrade` |
+
+| `WP_APP_PASSWORD` | mot de passe d'application WordPress |
+
+
+
+## Simulation WordPress (avant prod)
+
+
+
+Simule l'intégration pour **swissfirmup.com** sans toucher au site :
+
+
+
+```powershell
+
+cd "c:\Users\MICHAELO\Bot Discord"
+
+$env:WP_DRY_RUN="1"
+
+python sync_wordpress.py
+
+python scripts/simulate_wordpress.py
+
+```
+
+
+
+Ouvrez `simulation/preview.html` dans le navigateur.
+
+Fichiers générés :
+
+- `simulation/certificates/` — images PNG comme sur le site
+
+- `simulation/wordpress-export.json` — payloads REST qui seraient envoyés
+
+- `simulation/preview.html` — carrousel 3 slides (page d'accueil Elementor)
+
+Guide Elementor : `wordpress/ELEMENTOR.md`
 
 
 
@@ -133,10 +182,32 @@ python sync.py
 
 
 
+## Test WordPress (prod)
+
+
+
+```powershell
+
+$env:WP_DRY_RUN="0"
+
+$env:API_BASE_URL="https://bqsyp740n4.execute-api.ap-southeast-1.amazonaws.com"
+
+$env:API_KEY="votre-cle"
+
+$env:WP_USERNAME="swissgtrade"
+
+$env:WP_APP_PASSWORD="xxxx xxxx xxxx xxxx xxxx xxxx"
+
+python sync_wordpress.py
+
+```
+
+
+
 ## Fréquence
 
 
 
-Par défaut : toutes les **15 minutes** (`.github/workflows/discord-sync.yml`).
+Par défaut : toutes les **15 minutes** (`.github/workflows/discord-sync.yml` et `wordpress-sync.yml`).
 
 

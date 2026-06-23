@@ -4,3 +4,6 @@ __pycache__/
 *.pyc
 .pytest_cache/
 test-certificate.png
+simulation/certificates/
+simulation/wordpress-export.json
+dist/

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simulation carrousel payouts — https://swissfirmup.com</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../wordpress/assets/payout-carousel.css" />
+  <style>
+    :root {
+      color-scheme: dark;
+    }
+    body {
+      margin: 0;
+      font-family: Inter,Segoe UI,Roboto,Arial,sans-serif;
+      background: #050505;
+      color: #f4f4f4;
+    }
+    .preview-shell {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 48px 24px 72px;
+    }
+    .preview-badge {
+      display: inline-block;
+      margin-bottom: 18px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(255, 201, 0, 0.12);
+      color: #ffc900;
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .preview-intro {
+      max-width: 920px;
+      margin: 0 auto 36px;
+      text-align: center;
+      line-height: 1.7;
+      color: rgba(255, 255, 255, 0.82);
+      font-size: 18px;
+    }
+    .preview-note {
+      margin-top: 28px;
+      text-align: center;
+      color: rgba(255, 255, 255, 0.45);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-shell">
+    <div class="preview-badge">Simulation locale — page d'accueil Elementor</div>
+    <p class="preview-intro">Constituez votre capital en toute sérénité et profitez d&#x27;un environnement de trading sûr et de qualité, où vos compétences peuvent s&#x27;épanouir pleinement sur les marchés à terme.</p>
+
+    <div
+      class="firmup-payout-carousel"
+      id="firmup-payout-carousel-preview"
+      data-slides="3"
+      data-autoplay="5000"
+    >
+      <div class="swiper firmup-payout-carousel__swiper">
+        <div class="swiper-wrapper">
+                <div class="swiper-slide firmup-payout-carousel__slide">
+                    <img class="firmup-payout-carousel__image" src="certificates/payout-sim-001.png" alt="Michele — $900.00" loading="lazy" />
+                </div>
+                <div class="swiper-slide firmup-payout-carousel__slide">
+                    <img class="firmup-payout-carousel__image" src="certificates/payout-sim-002.png" alt="Hafiz — $3,600.00" loading="lazy" />
+                </div>
+                <div class="swiper-slide firmup-payout-carousel__slide">
+                    <img class="firmup-payout-carousel__image" src="certificates/payout-sim-003.png" alt="Victor — $430.20" loading="lazy" />
+                </div>
+                <div class="swiper-slide firmup-payout-carousel__slide">
+                    <img class="firmup-payout-carousel__image" src="certificates/payout-sim-004.png" alt="Maxime — $953.10" loading="lazy" />
+                </div>
+                <div class="swiper-slide firmup-payout-carousel__slide">
+                    <img class="firmup-payout-carousel__image" src="certificates/payout-sim-005.png" alt="Sarah — $2,150.75" loading="lazy" />
+                </div>
+                <div class="swiper-slide firmup-payout-carousel__slide">
+                    <img class="firmup-payout-carousel__image" src="certificates/payout-sim-006.png" alt="Luca — $1,280.00" loading="lazy" />
+                </div>
+        </div>
+        <div class="swiper-pagination firmup-payout-carousel__pagination"></div>
+      </div>
+    </div>
+
+    <p class="preview-note">
+      Shortcode Elementor : <code>[firmup_payout_carousel slides="3" autoplay="5"]</code>
+    </p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../wordpress/assets/payout-carousel.js"></script>
+</body>
+</html>
