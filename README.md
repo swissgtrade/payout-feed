@@ -77,7 +77,7 @@ Dans **Settings → Secrets and variables → Actions** :
 
 | `DISCORD_WEBHOOK_URL` | `https://discord.com/api/webhooks/...` |
 
-| `WP_USERNAME` | `swissgtrade` |
+| `WP_USERNAME` | `payout-bot` |
 
 | `WP_APP_PASSWORD` | mot de passe d'application WordPress |
 
@@ -194,7 +194,7 @@ $env:API_BASE_URL="https://bqsyp740n4.execute-api.ap-southeast-1.amazonaws.com"
 
 $env:API_KEY="votre-cle"
 
-$env:WP_USERNAME="swissgtrade"
+$env:WP_USERNAME="payout-bot"
 
 $env:WP_APP_PASSWORD="xxxx xxxx xxxx xxxx xxxx xxxx"
 
