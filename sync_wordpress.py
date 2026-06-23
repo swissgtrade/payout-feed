@@ -13,7 +13,7 @@ from sync import (
     fetch_payouts,
     load_json,
     payout_sort_key,
-    save_json,
+    update_state_field,
 )
 from wordpress_client import WordPressClient, WordPressConfig
 
@@ -90,8 +90,7 @@ def main() -> None:
             results.append(result)
             processed_ids.add(payout_id)
             published += 1
-            state["wordpress_processed_ids"] = sorted(processed_ids)
-            save_json(STATE_PATH, state)
+            update_state_field("wordpress_processed_ids", processed_ids)
             label = "Simulé" if dry_run else "Publié"
             print(f"{label} ({index + 1}/{len(to_publish)}) : {payout_id} — {result.title}")
         except Exception as exc:  # noqa: BLE001

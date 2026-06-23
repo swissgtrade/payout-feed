@@ -32,6 +32,13 @@ def save_json(path: Path, data: dict | list) -> None:
         handle.write("\n")
 
 
+def update_state_field(field: str, values: set[str]) -> None:
+    """Met à jour un champ de state.json sans écraser l'autre (Discord/WP)."""
+    state = load_json(STATE_PATH, {"processed_ids": [], "wordpress_processed_ids": []})
+    state[field] = sorted(values)
+    save_json(STATE_PATH, state)
+
+
 def env(name: str, required: bool = True, default: str | None = None) -> str:
     value = os.getenv(name, default)
     if required and not value:
@@ -212,7 +219,7 @@ def main() -> None:
     webhook_url = env("DISCORD_WEBHOOK_URL")
 
     config = load_json(CONFIG_PATH, {})
-    state = load_json(STATE_PATH, {"processed_ids": []})
+    state = load_json(STATE_PATH, {"processed_ids": [], "wordpress_processed_ids": []})
     processed_ids = set(state.get("processed_ids") or [])
 
     payouts = fetch_payouts(base_url, api_key, config)
@@ -250,8 +257,7 @@ def main() -> None:
             post_discord_image(webhook_url, image, f"payout-{payout_id}.png")
             processed_ids.add(payout_id)
             published += 1
-            state["processed_ids"] = sorted(processed_ids)
-            save_json(STATE_PATH, state)
+            update_state_field("processed_ids", processed_ids)
             print(f"Publié ({index + 1}/{len(to_publish)}) : {payout_id}")
         except Exception as exc:  # noqa: BLE001 - continuer sur les autres payouts
             print(f"Échec pour {payout_id} : {exc}", file=sys.stderr)
