@@ -1,18 +1,17 @@
-name: Discord Payout Sync
+name: Static Site Payout Feed
 
 on:
   schedule:
-    # Toutes les 15 minutes (quota GitHub Actions friendly).
-    # Décalé de WordPress (:03) et du flux statique (:07) pour éviter
-    # que les workflows ne se disputent le push sur main.
-    - cron: "0,15,30,45 * * * *"
+    # Décalé de 7 min par rapport à Discord (:00) et WordPress (:03)
+    # pour éviter que les 3 workflows ne se disputent le push sur main.
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  sync:
+  export:
     runs-on: ubuntu-latest
     environment: API PAYOUT
     steps:
@@ -29,23 +28,22 @@ jobs:
       - name: Install dependencies
         run: pip install "requests>=2.31.0" "Pillow>=10.0.0"
 
-      - name: Sync payouts to Discord
+      - name: Export payouts.json
         env:
           API_BASE_URL: ${{ secrets.API_BASE_URL }}
           API_KEY: ${{ secrets.API_KEY }}
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: python sync.py
+        run: python export_static_feed.py
 
-      - name: Commit state
+      - name: Commit feed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git fetch origin main
           git rebase origin/main
-          git add state.json
+          git add payouts.json
           if git diff --staged --quiet; then
-            echo "Aucun changement d'état."
+            echo "Aucun changement du flux."
           else
-            git commit -m "chore: mise à jour des payouts publiés"
+            git commit -m "chore: mise à jour du flux payouts pour le site statique"
             git push
           fi

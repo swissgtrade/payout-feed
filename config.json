@@ -5,6 +5,10 @@
   "max_pages": 200,
   "max_per_run": 20,
   "discord_delay_seconds": 2,
+  "static_feed": {
+    "feed_size": 10,
+    "output_file": "payouts.json"
+  },
   "wordpress": {
     "site_url": "https://swissfirmup.com",
     "post_type": "firmup_payout",
