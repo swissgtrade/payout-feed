@@ -40,7 +40,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git fetch origin main
           git rebase origin/main
-          git add payouts.json
+          git add -A -- payouts.json certs
           if git diff --staged --quiet; then
             echo "Aucun changement du flux."
           else

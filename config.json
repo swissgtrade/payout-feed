@@ -7,7 +7,9 @@
   "discord_delay_seconds": 2,
   "static_feed": {
     "feed_size": 10,
-    "output_file": "payouts.json"
+    "output_file": "payouts.json",
+    "certs_dir": "certs",
+    "thumb_width": 480
   },
   "wordpress": {
     "site_url": "https://swissfirmup.com",
