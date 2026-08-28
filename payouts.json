@@ -1,0 +1,56 @@
+{
+  "updated_at": "2026-08-28T15:06:51Z",
+  "total_amount": 14256.8,
+  "payouts": [
+    {
+      "name": "BERTRAND",
+      "amount": "$3,150.00",
+      "status": "Versé"
+    },
+    {
+      "name": "ALEXANDRE",
+      "amount": "$1,800.00",
+      "status": "Versé"
+    },
+    {
+      "name": "BEINDE",
+      "amount": "$1,800.00",
+      "status": "Versé"
+    },
+    {
+      "name": "YANN",
+      "amount": "$479.70",
+      "status": "Versé"
+    },
+    {
+      "name": "THEODORE",
+      "amount": "$376.87",
+      "status": "Versé"
+    },
+    {
+      "name": "THEODORE",
+      "amount": "$366.25",
+      "status": "Versé"
+    },
+    {
+      "name": "THEODORE",
+      "amount": "$433.98",
+      "status": "Versé"
+    },
+    {
+      "name": "HAFIZ",
+      "amount": "$1,800.00",
+      "status": "Versé"
+    },
+    {
+      "name": "ALEXANDRE",
+      "amount": "$1,800.00",
+      "status": "Versé"
+    },
+    {
+      "name": "GREGORY",
+      "amount": "$2,250.00",
+      "status": "Versé"
+    }
+  ]
+}
