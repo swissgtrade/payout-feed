@@ -1,56 +1,66 @@
 {
-  "updated_at": "2026-08-28T15:06:51Z",
+  "updated_at": "2026-08-28T15:18:52Z",
   "total_amount": 14256.8,
   "payouts": [
     {
       "name": "BERTRAND",
       "amount": "$3,150.00",
-      "status": "Versé"
+      "status": "Versé",
+      "image": "certs/6a750d894b53b7d9c53bb8f6.png"
     },
     {
       "name": "ALEXANDRE",
       "amount": "$1,800.00",
-      "status": "Versé"
+      "status": "Versé",
+      "image": "certs/6a6c628cb0078017eb83e1df.png"
     },
     {
       "name": "BEINDE",
       "amount": "$1,800.00",
-      "status": "Versé"
+      "status": "Versé",
+      "image": "certs/6a750e36e467eb2bbdc1af25.png"
     },
     {
       "name": "YANN",
       "amount": "$479.70",
-      "status": "Versé"
+      "status": "Versé",
+      "image": "certs/6a55e30fa43abaf496b6da4e.png"
     },
     {
       "name": "THEODORE",
       "amount": "$376.87",
-      "status": "Versé"
+      "status": "Versé",
+      "image": "certs/6a7ad07df22463176773af4a.png"
     },
     {
       "name": "THEODORE",
       "amount": "$366.25",
-      "status": "Versé"
+      "status": "Versé",
+      "image": "certs/6a7ad0a1343f76ff72c577af.png"
     },
     {
       "name": "THEODORE",
       "amount": "$433.98",
-      "status": "Versé"
+      "status": "Versé",
+      "image": "certs/6a7ad0c05951c79c7817795a.png"
     },
     {
       "name": "HAFIZ",
       "amount": "$1,800.00",
-      "status": "Versé"
+      "status": "Versé",
+      "image": "certs/6a682b6f5122ecc9588bbb24.png"
     },
     {
       "name": "ALEXANDRE",
       "amount": "$1,800.00",
-      "status": "Versé"
+      "status": "Versé",
+      "image": "certs/6a68673af92afcb0c1644676.png"
     },
     {
       "name": "GREGORY",
       "amount": "$2,250.00",
-      "status": "Versé"
+      "status": "Versé",
+      "image": "certs/6a726b41a824bc418b9903d0.png"
     }
   ]
 }
