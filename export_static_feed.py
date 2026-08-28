@@ -37,13 +37,7 @@ def main() -> None:
     payouts.sort(key=payout_sort_key, reverse=True)
     latest = payouts[:feed_size]
 
-    items = []
-    keep_filenames: set[str] = set()
-    total = 0.0
-
-    for payout in latest:
-        payout_id = payout.get("id") or ""
-        name = first_name_only(payout.get("fullName")).upper()
+    def extract_amount(payout: dict) -> float:
         amount_value = (
             payout.get("transferAmount")
             or payout.get("actualAmount")
@@ -51,9 +45,19 @@ def main() -> None:
             or 0
         )
         try:
-            total += float(amount_value)
+            return float(amount_value)
         except (TypeError, ValueError):
-            pass
+            return 0.0
+
+    # Le total porte sur TOUS les payouts éligibles, pas seulement sur les N affichés.
+    total = sum(extract_amount(payout) for payout in payouts)
+
+    items = []
+    keep_filenames: set[str] = set()
+
+    for payout in latest:
+        payout_id = payout.get("id") or ""
+        name = first_name_only(payout.get("fullName")).upper()
 
         image_rel = None
         if payout_id:
