@@ -1,7 +1,13 @@
 {
-  "updated_at": "2026-09-03T06:26:54Z",
-  "total_amount": 159023.76,
+  "updated_at": "2026-09-03T11:40:19Z",
+  "total_amount": 160823.76,
   "payouts": [
+    {
+      "name": "RENU",
+      "amount": "$1,800.00",
+      "status": "Versé",
+      "image": "certs/6a8ce986db7fa4cc620ae743.png"
+    },
     {
       "name": "RETTHA",
       "amount": "$630.00",
@@ -55,12 +61,6 @@
       "amount": "$366.25",
       "status": "Versé",
       "image": "certs/6a7ad0a1343f76ff72c577af.png"
-    },
-    {
-      "name": "THEODORE",
-      "amount": "$433.98",
-      "status": "Versé",
-      "image": "certs/6a7ad0c05951c79c7817795a.png"
     }
   ]
 }
