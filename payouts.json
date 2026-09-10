@@ -1,7 +1,13 @@
 {
-  "updated_at": "2026-09-10T11:12:01Z",
-  "total_amount": 175199.65,
+  "updated_at": "2026-09-10T15:02:22Z",
+  "total_amount": 176733.25,
   "payouts": [
+    {
+      "name": "DARJO",
+      "amount": "$1,533.60",
+      "status": "Versé",
+      "image": "certs/6a97e92d7644d8ef4eaa9bf4.png"
+    },
     {
       "name": "HUA",
       "amount": "$1,800.00",
@@ -55,12 +61,6 @@
       "amount": "$748.77",
       "status": "Versé",
       "image": "certs/6a8e9f0b0010c1d398505e34.png"
-    },
-    {
-      "name": "IVAN",
-      "amount": "$1,617.75",
-      "status": "Versé",
-      "image": "certs/6a902c2ef80ec556dc494f3c.png"
     }
   ]
 }
