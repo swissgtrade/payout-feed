@@ -1,7 +1,13 @@
 {
-  "updated_at": "2026-10-08T03:01:12Z",
-  "total_amount": 217179.01,
+  "updated_at": "2026-10-08T10:25:37Z",
+  "total_amount": 218526.53,
   "payouts": [
+    {
+      "name": "BERNARD",
+      "amount": "$1,347.52",
+      "status": "Versé",
+      "image": "certs/6aba381d1b5d8936dd4885f6.png"
+    },
     {
       "name": "JACQUELINE",
       "amount": "$777.15",
@@ -55,12 +61,6 @@
       "amount": "$703.80",
       "status": "Versé",
       "image": "certs/6a9ae5e6022d4e128075b5cd.png"
-    },
-    {
-      "name": "IVAN",
-      "amount": "$1,617.75",
-      "status": "Versé",
-      "image": "certs/6a902c2ef80ec556dc494f3c.png"
     }
   ]
 }
