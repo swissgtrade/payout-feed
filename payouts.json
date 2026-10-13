@@ -1,7 +1,19 @@
 {
-  "updated_at": "2026-10-13T11:40:44Z",
-  "total_amount": 228121.64,
+  "updated_at": "2026-10-13T18:31:58Z",
+  "total_amount": 231660.44,
   "payouts": [
+    {
+      "name": "JORGE",
+      "amount": "$1,738.80",
+      "status": "Versé",
+      "image": "certs/6ac343e8ef1a4ccb546d2407.png"
+    },
+    {
+      "name": "MATTEO",
+      "amount": "$1,800.00",
+      "status": "Versé",
+      "image": "certs/6abd8e9d84271d6a23eb752a.png"
+    },
     {
       "name": "AARYAN",
       "amount": "$1,041.30",
@@ -49,18 +61,6 @@
       "amount": "$207.44",
       "status": "Versé",
       "image": "certs/6ab6788eba4be79e84b298c5.png"
-    },
-    {
-      "name": "ALINA",
-      "amount": "$1,075.50",
-      "status": "Versé",
-      "image": "certs/6aa0e76a9474c85800e06acb.png"
-    },
-    {
-      "name": "HELIOS",
-      "amount": "$1,800.00",
-      "status": "Versé",
-      "image": "certs/6ab2159f3a3488207071317e.png"
     }
   ]
 }
