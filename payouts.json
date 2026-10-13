@@ -1,7 +1,13 @@
 {
-  "updated_at": "2026-10-13T03:58:14Z",
-  "total_amount": 227080.34,
+  "updated_at": "2026-10-13T11:40:44Z",
+  "total_amount": 228121.64,
   "payouts": [
+    {
+      "name": "AARYAN",
+      "amount": "$1,041.30",
+      "status": "Versé",
+      "image": "certs/6ac76417c10920bc6853864a.png"
+    },
     {
       "name": "BEINDE",
       "amount": "$927.00",
@@ -55,12 +61,6 @@
       "amount": "$1,800.00",
       "status": "Versé",
       "image": "certs/6ab2159f3a3488207071317e.png"
-    },
-    {
-      "name": "HELIOS",
-      "amount": "$1,284.97",
-      "status": "Versé",
-      "image": "certs/6a9b48bf590f3c42e92236a1.png"
     }
   ]
 }
