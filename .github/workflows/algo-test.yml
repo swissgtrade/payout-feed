@@ -1,0 +1,44 @@
+name: Algo - test API YPF
+
+# Lancement manuel uniquement (onglet Actions -> Run workflow).
+# Lecture seule : n'écrit rien dans le dépôt, affiche seulement la structure des réponses.
+on:
+  workflow_dispatch:
+    inputs:
+      program:
+        description: "Nom du programme YPF"
+        default: "dxfeed-algo"
+      prefix:
+        description: "Début du nom des comptes"
+        default: "BOT-"
+      statuses:
+        description: "Statuts des comptes, séparés par des virgules"
+        default: "Active"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    environment: API PAYOUT
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install "requests>=2.31.0" "Pillow>=10.0.0"
+
+      - name: Test API YPF
+        env:
+          API_BASE_URL: ${{ secrets.API_BASE_URL }}
+          API_KEY: ${{ secrets.API_KEY }}
+          ALGO_PROGRAM: ${{ inputs.program }}
+          ALGO_PREFIX: ${{ inputs.prefix }}
+          ALGO_STATUSES: ${{ inputs.statuses }}
+        run: python algo_test.py
