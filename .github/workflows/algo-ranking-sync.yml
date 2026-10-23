@@ -1,0 +1,48 @@
+name: Algo Ranking Feed
+
+on:
+  # Lancement manuel tant que le classement est en test.
+  # Pour l'automatiser, décommenter le cron (décalé des workflows payouts : :00, :03, :07).
+  # schedule:
+  #   - cron: "11 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    environment: API PAYOUT
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install "requests>=2.31.0" "Pillow>=10.0.0"
+
+      - name: Export algo-ranking.json
+        env:
+          API_BASE_URL: ${{ secrets.API_BASE_URL }}
+          API_KEY: ${{ secrets.API_KEY }}
+        run: python export_algo_ranking.py
+
+      - name: Commit feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add algo-ranking.json
+          if git diff --staged --quiet; then
+            echo "Aucun changement du classement."
+          else
+            git commit -m "chore: mise à jour du classement algo"
+            git pull --rebase origin main
+            git push
+          fi

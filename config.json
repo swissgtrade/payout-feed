@@ -11,6 +11,24 @@
     "certs_dir": "certs",
     "thumb_width": 480
   },
+  "algo_ranking": {
+    "prefix": "BOT-",
+    "statuses": ["Active"],
+    "initial_balance": 5000,
+    "top_n": 10,
+    "period_start": null,
+    "period_end": null,
+    "day_start_utc_hour": 22,
+    "output_file": "algo-ranking.json",
+    "criteria": [
+      ["net_profit", 25, 0, 2500],
+      ["profit_factor", 15, 1, 3],
+      ["max_drawdown", 25, 2500, 250],
+      ["sharpe", 15, 0, 3],
+      ["positive_days", 10, 40, 80],
+      ["best_day_share", 10, 80, 20]
+    ]
+  },
   "wordpress": {
     "site_url": "https://swissfirmup.com",
     "post_type": "firmup_payout",
