@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
     inputs:
       program:
-        description: "Nom du programme YPF"
-        default: "dxfeed-algo"
+        description: "Nom du programme YPF (vide = tous, filtre sur le nom seul)"
+        default: ""
       prefix:
         description: "Début du nom des comptes"
         default: "BOT-"

@@ -15,7 +15,7 @@ import requests
 
 from sync import api_headers, env
 
-PROGRAM = os.getenv("ALGO_PROGRAM", "dxfeed-algo")
+PROGRAM = os.getenv("ALGO_PROGRAM", "")  # vide = tous les programmes, filtre sur le nom seul
 PREFIX = os.getenv("ALGO_PREFIX", "BOT-")
 STATUSES = [s.strip() for s in os.getenv("ALGO_STATUSES", "Active").split(",") if s.strip()]
 HISTORY_DAYS = int(os.getenv("ALGO_HISTORY_DAYS", "7"))
@@ -96,19 +96,19 @@ def main() -> None:
     v1 = urljoin(base_url, "client/v1/")
     v2 = urljoin(base_url, "client/v2/")
 
-    programs = as_list(call("GET", v1 + "programs", api_key, params={"name": PROGRAM}))
-    print(f"   Programme(s) dont le nom contient '{PROGRAM}' : {[p.get('name') for p in programs]}")
-
     accounts: list[dict] = []
     for status in STATUSES:
-        batch = as_list(call("GET", v1 + "tenant/accounts", api_key,
-                             params={"status": status, "program": PROGRAM, "pageSize": 1000}))
-        print(f"   {len(batch)} compte(s) {status}")
+        params = {"status": status, "pageSize": 1000}
+        if PROGRAM:
+            params["program"] = PROGRAM
+        batch = as_list(call("GET", v1 + "tenant/accounts", api_key, params=params))
+        print(f"   {len(batch)} compte(s) {status}"
+              + ("  (1000 = plafond de l'API, liste peut-être incomplète)" if len(batch) >= 1000 else ""))
         accounts += batch
 
     bots = [(a, *n) for a in accounts if (n := account_name(a))]
     print(f"\n{len(accounts)} compte(s) au total, {len(bots)} commençant par '{PREFIX}'")
-    print(f"programId distincts : {sorted({str(a.get('programId')) for a in accounts})}")
+    print(f"programId des comptes {PREFIX} : {sorted({str(b[0].get('programId')) for b in bots})}")
     for account, name, field in bots:
         print(f"  {name:<14} (via {field}) state={account.get('state')} "
               f"balance={account.get('balance')} equity={account.get('equity')} "
