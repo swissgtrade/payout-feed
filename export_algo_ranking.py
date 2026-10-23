@@ -28,6 +28,8 @@ DEFAULTS = {
     "period_start": None,
     "period_end": None,
     "day_start_utc_hour": 22,
+    # Le Sharpe est instable sur peu de jours : ses points montent jusqu'à ce nombre de jours tradés.
+    "sharpe_full_days": 10,
     "output_file": "algo-ranking.json",
     # [clé, points, valeur à 0 point, valeur au maximum]
     "criteria": [
@@ -144,7 +146,11 @@ def compute_stats(account: dict, trades: list[dict], cfg: dict, start: datetime)
     profit_factor = round(gross_win / gross_loss, 2) if gross_loss > 0 else None
     no_loss = gross_loss == 0 and gross_win > 0
 
-    curve = [[start.date().isoformat(), initial]]
+    # Point de départ la veille du premier jour tradé s'il tombe le même jour que l'ouverture.
+    first_day = start.date()
+    if days and days[0] <= first_day.isoformat():
+        first_day = datetime.fromisoformat(days[0]).date() - timedelta(days=1)
+    curve = [[first_day.isoformat(), initial]]
     running = initial
     for day in days:
         running += daily[day]
@@ -176,7 +182,10 @@ def score(stats: dict, cfg: dict) -> tuple[int, dict]:
         value = stats.get(key)
         if key == "profit_factor" and stats.get("no_losing_trade"):
             value = full
-        points[key] = round(weight * fraction(value, zero, full), 1)
+        earned = weight * fraction(value, zero, full)
+        if key == "sharpe":
+            earned *= min(1.0, stats["days_traded"] / cfg["sharpe_full_days"])
+        points[key] = round(earned, 1)
     return round(sum(points.values())), points
 
 
@@ -233,7 +242,8 @@ def main() -> None:
         },
         "initial_balance": cfg["initial_balance"],
         "criteria": [
-            {"key": key, "points": weight, "zero": zero, "full": full}
+            {"key": key, "points": weight, "zero": zero, "full": full,
+             **({"full_days": cfg["sharpe_full_days"]} if key == "sharpe" else {})}
             for key, weight, zero, full in cfg["criteria"]
         ],
         "accounts_tracked": len(bots),

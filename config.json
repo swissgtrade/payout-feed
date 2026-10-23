@@ -19,6 +19,7 @@
     "period_start": null,
     "period_end": null,
     "day_start_utc_hour": 22,
+    "sharpe_full_days": 10,
     "output_file": "algo-ranking.json",
     "criteria": [
       ["net_profit", 25, 0, 2500],
