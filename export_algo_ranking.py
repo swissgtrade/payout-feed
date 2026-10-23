@@ -207,6 +207,10 @@ def main() -> None:
         if len(batch) >= 1000:
             print(f"Attention : {status} a atteint le plafond de 1000 comptes, liste incomplète.")
         bots += [a for a in batch if str(a.get("login") or "").startswith(cfg["prefix"])]
+    if not bots:
+        # Aucun compte BOT- : plus probablement un souci d'API que la réalité. Le job échoue
+        # (e-mail GitHub) et le dernier classement publié reste en place.
+        raise SystemExit(f"Aucun compte {cfg['prefix']} renvoyé par YPF : classement non mis à jour.")
     in_gain = [a for a in bots if float(a.get("balance") or 0) > cfg["initial_balance"]]
     print(f"{len(bots)} compte(s) {cfg['prefix']}, dont {len(in_gain)} en gain")
 
