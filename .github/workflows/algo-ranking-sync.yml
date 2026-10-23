@@ -1,10 +1,10 @@
 name: Algo Ranking Feed
 
 on:
-  # Lancement manuel tant que le classement est en test.
-  # Pour l'automatiser, décommenter le cron (décalé des workflows payouts : :00, :03, :07).
-  # schedule:
-  #   - cron: "11 * * * *"
+  schedule:
+    # Toutes les heures à :11, décalé des workflows payouts (:00, :03, :07)
+    # pour éviter qu'ils ne se disputent le push sur main.
+    - cron: "11 * * * *"
   workflow_dispatch:
 
 permissions:
