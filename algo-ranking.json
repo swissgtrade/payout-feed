@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T00:24:32Z",
+  "updated_at": "2026-10-27T06:14:49Z",
   "period": {
     "start": null,
     "end": null
@@ -58,9 +58,9 @@
         "positive_days": 10.0,
         "best_day_share": 6.4
       },
-      "net_profit": 2193.0,
-      "return_pct": 43.86,
-      "balance": 7193.0,
+      "net_profit": 2191.0,
+      "return_pct": 43.82,
+      "balance": 7191.0,
       "max_drawdown": 1555.27,
       "profit_factor": 4.49,
       "no_losing_trade": false,
