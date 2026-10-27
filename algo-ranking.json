@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T20:27:55Z",
+  "updated_at": "2026-10-27T00:24:32Z",
   "period": {
     "start": null,
     "end": null
@@ -152,17 +152,17 @@
         "positive_days": 8.8,
         "best_day_share": 0.0
       },
-      "net_profit": 895.0,
-      "return_pct": 17.9,
-      "balance": 5895.0,
+      "net_profit": 892.0,
+      "return_pct": 17.84,
+      "balance": 5892.0,
       "max_drawdown": 1408.0,
       "profit_factor": 1.38,
       "no_losing_trade": false,
-      "sharpe": 4.09,
+      "sharpe": 4.07,
       "positive_days": 75.0,
       "best_day": 1259.0,
-      "best_day_share": 140.7,
-      "trades": 64,
+      "best_day_share": 141.1,
+      "trades": 65,
       "days_traded": 4,
       "markets": [
         "MNQ"
@@ -187,7 +187,7 @@
         ],
         [
           "2026-10-26",
-          5895.0
+          5892.0
         ]
       ],
       "rank": 3
