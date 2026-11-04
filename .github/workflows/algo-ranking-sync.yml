@@ -10,6 +10,11 @@ on:
 permissions:
   contents: write
 
+# Le PC du bureau lance aussi ce workflow chaque heure : un seul passage à la fois.
+concurrency:
+  group: algo-ranking
+  cancel-in-progress: false
+
 jobs:
   export:
     runs-on: ubuntu-latest
