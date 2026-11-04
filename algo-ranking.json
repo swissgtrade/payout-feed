@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T14:11:13Z",
+  "updated_at": "2026-11-04T15:11:17Z",
   "period": {
     "start": null,
     "end": null
@@ -107,23 +107,23 @@
       "score": 52,
       "points": {
         "net_profit": 25.0,
-        "profit_factor": 4.1,
+        "profit_factor": 4.3,
         "max_drawdown": 0.0,
         "sharpe": 15.0,
         "positive_days": 7.5,
         "best_day_share": 0.0
       },
-      "net_profit": 5380.0,
-      "return_pct": 107.6,
-      "balance": 10380.0,
+      "net_profit": 5621.0,
+      "return_pct": 112.42,
+      "balance": 10621.0,
       "max_drawdown": 3750.0,
-      "profit_factor": 1.55,
+      "profit_factor": 1.57,
       "no_losing_trade": false,
-      "sharpe": 4.36,
+      "sharpe": 4.42,
       "positive_days": 70.0,
-      "best_day": 4703.5,
-      "best_day_share": 87.4,
-      "trades": 45,
+      "best_day": 4944.5,
+      "best_day_share": 88.0,
+      "trades": 46,
       "days_traded": 10,
       "markets": [
         "MES"
@@ -172,7 +172,7 @@
         ],
         [
           "2026-11-04",
-          10380.0
+          10621.0
         ]
       ],
       "rank": 2
@@ -271,24 +271,24 @@
       "id": "BOT-9525503092060538",
       "score": 35,
       "points": {
-        "net_profit": 6.8,
+        "net_profit": 6.5,
         "profit_factor": 0.8,
         "max_drawdown": 12.6,
         "sharpe": 6.0,
         "positive_days": 8.8,
         "best_day_share": 0.0
       },
-      "net_profit": 681.0,
-      "return_pct": 13.62,
-      "balance": 5681.0,
+      "net_profit": 648.5,
+      "return_pct": 12.97,
+      "balance": 5648.5,
       "max_drawdown": 1363.25,
-      "profit_factor": 1.11,
+      "profit_factor": 1.1,
       "no_losing_trade": false,
-      "sharpe": 4.96,
+      "sharpe": 4.76,
       "positive_days": 75.0,
       "best_day": 768.0,
-      "best_day_share": 112.8,
-      "trades": 214,
+      "best_day_share": 118.4,
+      "trades": 217,
       "days_traded": 4,
       "markets": [
         "GC",
@@ -324,7 +324,7 @@
         ],
         [
           "2026-11-04",
-          5681.0
+          5648.5
         ]
       ],
       "rank": 5
