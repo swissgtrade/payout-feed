@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T12:11:13Z",
+  "updated_at": "2026-11-04T13:11:14Z",
   "period": {
     "start": null,
     "end": null
@@ -107,23 +107,23 @@
       "score": 52,
       "points": {
         "net_profit": 25.0,
-        "profit_factor": 4.7,
+        "profit_factor": 4.1,
         "max_drawdown": 0.0,
         "sharpe": 15.0,
         "positive_days": 7.5,
         "best_day_share": 0.0
       },
-      "net_profit": 5854.0,
-      "return_pct": 117.08,
-      "balance": 10854.0,
+      "net_profit": 5380.0,
+      "return_pct": 107.6,
+      "balance": 10380.0,
       "max_drawdown": 3750.0,
-      "profit_factor": 1.63,
+      "profit_factor": 1.55,
       "no_losing_trade": false,
-      "sharpe": 4.48,
+      "sharpe": 4.36,
       "positive_days": 70.0,
-      "best_day": 5177.5,
-      "best_day_share": 88.4,
-      "trades": 44,
+      "best_day": 4703.5,
+      "best_day_share": 87.4,
+      "trades": 45,
       "days_traded": 10,
       "markets": [
         "MES"
@@ -172,7 +172,7 @@
         ],
         [
           "2026-11-04",
-          10854.0
+          10380.0
         ]
       ],
       "rank": 2
@@ -222,26 +222,26 @@
     },
     {
       "id": "BOT-9525503092060538",
-      "score": 41,
+      "score": 40,
       "points": {
-        "net_profit": 11.8,
-        "profit_factor": 1.6,
+        "net_profit": 10.2,
+        "profit_factor": 1.3,
         "max_drawdown": 12.6,
         "sharpe": 6.0,
         "positive_days": 8.8,
-        "best_day_share": 0.6
+        "best_day_share": 0.7
       },
-      "net_profit": 1176.75,
-      "return_pct": 23.54,
-      "balance": 6176.75,
+      "net_profit": 1016.0,
+      "return_pct": 20.32,
+      "balance": 6016.0,
       "max_drawdown": 1363.25,
-      "profit_factor": 1.21,
+      "profit_factor": 1.17,
       "no_losing_trade": false,
-      "sharpe": 7.08,
+      "sharpe": 6.57,
       "positive_days": 75.0,
-      "best_day": 898.25,
-      "best_day_share": 76.3,
-      "trades": 199,
+      "best_day": 768.0,
+      "best_day_share": 75.6,
+      "trades": 208,
       "days_traded": 4,
       "markets": [
         "GC",
@@ -277,7 +277,7 @@
         ],
         [
           "2026-11-04",
-          6176.75
+          6016.0
         ]
       ],
       "rank": 4
