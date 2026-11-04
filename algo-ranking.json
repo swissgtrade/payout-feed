@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T08:40:16Z",
+  "updated_at": "2026-11-04T09:06:21Z",
   "period": {
     "start": null,
     "end": null
@@ -222,26 +222,26 @@
     },
     {
       "id": "BOT-9525503092060538",
-      "score": 44,
+      "score": 43,
       "points": {
-        "net_profit": 14.1,
-        "profit_factor": 2.2,
+        "net_profit": 13.8,
+        "profit_factor": 2.1,
         "max_drawdown": 12.6,
         "sharpe": 6.0,
         "positive_days": 8.8,
         "best_day_share": 0.0
       },
-      "net_profit": 1408.0,
-      "return_pct": 28.16,
-      "balance": 6408.0,
+      "net_profit": 1377.0,
+      "return_pct": 27.54,
+      "balance": 6377.0,
       "max_drawdown": 1363.25,
-      "profit_factor": 1.29,
+      "profit_factor": 1.28,
       "no_losing_trade": false,
-      "sharpe": 7.59,
+      "sharpe": 7.54,
       "positive_days": 75.0,
-      "best_day": 1129.5,
-      "best_day_share": 80.2,
-      "trades": 177,
+      "best_day": 1098.5,
+      "best_day_share": 79.8,
+      "trades": 178,
       "days_traded": 4,
       "markets": [
         "GC",
@@ -277,7 +277,7 @@
         ],
         [
           "2026-11-04",
-          6408.0
+          6377.0
         ]
       ],
       "rank": 4
