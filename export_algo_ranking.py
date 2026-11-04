@@ -277,7 +277,10 @@ def main() -> None:
         print(f"  {account['login']:<22} solde trades {balance:>9}  solde YPF {ypf_balance:>9}  "
               f"écart {entry['gap']:>9}  lignes {dict(kinds)}")
 
-        if balance <= initial:
+        # Les deux soldes doivent être en gain : YPF reste figé après un échec (le solde des
+        # trades le corrige), et son historique peut être incomplet (le solde YPF le corrige).
+        if balance <= initial or ypf_balance <= initial:
+            entry["excluded"] = "solde trades" if balance <= initial else "solde YPF"
             continue
         period_trades = [t for t in closed if parse_time(t.get("closeTime")) >= start]
         stats = compute_stats(balance, period_trades, cfg, start)
