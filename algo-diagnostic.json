@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T16:11:43Z",
+  "updated_at": "2026-11-05T17:11:13Z",
   "accounts": [
     {
       "id": "BOT-8062332837092222",
@@ -492,10 +492,10 @@
     {
       "id": "BOT-9525503092060538",
       "ypf_state": "Active",
-      "ypf_balance": 6274.0,
-      "ypf_equity": 6274.0,
+      "ypf_balance": 6273.5,
+      "ypf_equity": 6297.25,
       "trades_balance": 6461.5,
-      "gap": -187.5,
+      "gap": -188.0,
       "rows": {
         "ClosedNormal/Buy": [
           134,
@@ -973,9 +973,9 @@
     {
       "id": "BOT-1060364672318105",
       "ypf_state": "Active",
-      "ypf_balance": 4492.0,
-      "ypf_equity": 4492.0,
-      "trades_balance": 4483.0,
+      "ypf_balance": 4824.0,
+      "ypf_equity": 4824.0,
+      "trades_balance": 4815.0,
       "gap": 9.0,
       "rows": {
         "ClosedNormal/Buy": [
@@ -983,22 +983,11 @@
           -2190.0
         ],
         "ClosedNormal/Sell": [
-          95,
-          1673.0
+          96,
+          2005.0
         ]
       },
       "recent": [
-        {
-          "openTime": "2026-11-04T06:00:09.345Z",
-          "closeTime": "2026-11-04T06:00:10.127Z",
-          "timestamp": "2026-11-04T06:00:10.152575Z",
-          "state": "ClosedNormal",
-          "command": "Sell",
-          "tradeSymbol": "MNQ.CME",
-          "volume": 2,
-          "profit": -13,
-          "commission": 2
-        },
         {
           "openTime": "2026-11-04T06:00:09.345Z",
           "closeTime": "2026-11-04T06:00:10.161Z",
@@ -1201,6 +1190,17 @@
           "openTime": "2026-11-05T11:30:03.112Z",
           "closeTime": "2026-11-05T14:12:55.799Z",
           "timestamp": "2026-11-05T14:12:55.819104Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "MNQ.CME",
+          "volume": 1,
+          "profit": 333,
+          "commission": 1
+        },
+        {
+          "openTime": "2026-11-05T16:18:03.231Z",
+          "closeTime": "2026-11-05T17:01:15.443Z",
+          "timestamp": "2026-11-05T17:01:15.467717Z",
           "state": "ClosedNormal",
           "command": "Sell",
           "tradeSymbol": "MNQ.CME",
