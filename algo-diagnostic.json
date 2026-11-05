@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T21:11:18Z",
+  "updated_at": "2026-11-05T21:58:26Z",
   "accounts": [
     {
       "id": "BOT-8062332837092222",
@@ -492,43 +492,21 @@
     {
       "id": "BOT-9525503092060538",
       "ypf_state": "Active",
-      "ypf_balance": 6210.0,
-      "ypf_equity": 6100.0,
-      "trades_balance": 6401.5,
-      "gap": -191.5,
+      "ypf_balance": 6256.0,
+      "ypf_equity": 6256.0,
+      "trades_balance": 6443.5,
+      "gap": -187.5,
       "rows": {
         "ClosedNormal/Buy": [
           135,
           737.25
         ],
         "ClosedNormal/Sell": [
-          119,
-          664.25
+          121,
+          706.25
         ]
       },
       "recent": [
-        {
-          "openTime": "2026-11-04T23:30:00.324Z",
-          "closeTime": "2026-11-05T00:17:56.533Z",
-          "timestamp": "2026-11-05T00:17:56.554907Z",
-          "state": "ClosedNormal",
-          "command": "Sell",
-          "tradeSymbol": "MGC.COMEX",
-          "volume": 1,
-          "profit": -95.99999999999909,
-          "commission": 1
-        },
-        {
-          "openTime": "2026-11-05T06:15:03.72Z",
-          "closeTime": "2026-11-05T06:16:28.142Z",
-          "timestamp": "2026-11-05T06:16:28.1669Z",
-          "state": "ClosedNormal",
-          "command": "Sell",
-          "tradeSymbol": "NG.NYMEX",
-          "volume": 1,
-          "profit": 69.99999999999673,
-          "commission": 4
-        },
         {
           "openTime": "2026-11-05T07:15:00.357Z",
           "closeTime": "2026-11-05T08:00:12.163Z",
@@ -726,6 +704,28 @@
           "volume": 1,
           "profit": 115.00000000000065,
           "commission": 1
+        },
+        {
+          "openTime": "2026-11-05T19:45:02.591Z",
+          "closeTime": "2026-11-05T21:47:34.12Z",
+          "timestamp": "2026-11-05T21:47:34.1463Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "NG.NYMEX",
+          "volume": 1,
+          "profit": 200.00000000000017,
+          "commission": 4
+        },
+        {
+          "openTime": "2026-11-05T18:30:02.284Z",
+          "closeTime": "2026-11-05T21:56:00.013Z",
+          "timestamp": "2026-11-05T21:56:00.039165Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "HE.CME",
+          "volume": 1,
+          "profit": -150,
+          "commission": 4
         }
       ]
     },
