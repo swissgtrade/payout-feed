@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T20:11:12Z",
+  "updated_at": "2026-11-05T21:11:18Z",
   "accounts": [
     {
       "id": "BOT-8062332837092222",
@@ -493,7 +493,7 @@
       "id": "BOT-9525503092060538",
       "ypf_state": "Active",
       "ypf_balance": 6210.0,
-      "ypf_equity": 6010.0,
+      "ypf_equity": 6100.0,
       "trades_balance": 6401.5,
       "gap": -191.5,
       "rows": {
@@ -1214,40 +1214,16 @@
     {
       "id": "BOT-5985115771848889",
       "ypf_state": "Active",
-      "ypf_balance": 4844.5,
-      "ypf_equity": 4913.5,
-      "trades_balance": 4845.5,
-      "gap": -1.0,
+      "ypf_balance": 4799.75,
+      "ypf_equity": 4799.75,
+      "trades_balance": 4799.75,
+      "gap": 0.0,
       "rows": {
         "ClosedNormal/Buy": [
-          2,
-          -154.5
+          4,
+          -200.25
         ]
       },
-      "recent": [
-        {
-          "openTime": "2026-11-05T17:28:57.732Z",
-          "closeTime": "2026-11-05T17:35:37.068Z",
-          "timestamp": "2026-11-05T17:35:37.098996Z",
-          "state": "ClosedNormal",
-          "command": "Buy",
-          "tradeSymbol": "MES.CME",
-          "volume": 1,
-          "profit": -68.75,
-          "commission": 1
-        },
-        {
-          "openTime": "2026-11-05T17:50:16.845Z",
-          "closeTime": "2026-11-05T18:00:06.418Z",
-          "timestamp": "2026-11-05T18:00:06.442543Z",
-          "state": "ClosedNormal",
-          "command": "Buy",
-          "tradeSymbol": "MES.CME",
-          "volume": 1,
-          "profit": -83.75,
-          "commission": 1
-        }
-      ],
       "excluded": "solde trades"
     },
     {
@@ -1406,9 +1382,9 @@
     {
       "id": "BOT-9517409723160707",
       "ypf_state": "Active",
-      "ypf_balance": 10959.25,
-      "ypf_equity": 10959.25,
-      "trades_balance": 10959.25,
+      "ypf_balance": 11211.75,
+      "ypf_equity": 11211.75,
+      "trades_balance": 11211.75,
       "gap": 0.0,
       "rows": {
         "ClosedNormal/Buy": [
@@ -1416,8 +1392,8 @@
           5183.25
         ],
         "ClosedNormal/Sell": [
-          28,
-          776.0
+          29,
+          1028.5
         ]
       }
     },
