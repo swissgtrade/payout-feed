@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T02:11:13Z",
+  "updated_at": "2026-11-05T03:11:24Z",
   "period": {
     "start": null,
     "end": null
@@ -45,8 +45,52 @@
     }
   ],
   "accounts_tracked": 23,
-  "accounts_in_gain": 7,
+  "accounts_in_gain": 6,
   "ranking": [
+    {
+      "id": "BOT-1956467265868055",
+      "score": 61,
+      "points": {
+        "net_profit": 4.3,
+        "profit_factor": 15.0,
+        "max_drawdown": 25.0,
+        "sharpe": 3.0,
+        "positive_days": 10.0,
+        "best_day_share": 4.0
+      },
+      "net_profit": 430.0,
+      "return_pct": 8.6,
+      "balance": 5430.0,
+      "max_drawdown": 0.0,
+      "profit_factor": null,
+      "no_losing_trade": true,
+      "sharpe": 96.53,
+      "positive_days": 100.0,
+      "best_day": 240.0,
+      "best_day_share": 55.8,
+      "trades": 20,
+      "days_traded": 2,
+      "markets": [
+        "MNQ",
+        "MYM"
+      ],
+      "start_date": "2026-11-04",
+      "curve": [
+        [
+          "2026-11-03",
+          5000.0
+        ],
+        [
+          "2026-11-04",
+          5190.0
+        ],
+        [
+          "2026-11-05",
+          5430.0
+        ]
+      ],
+      "rank": 1
+    },
     {
       "id": "BOT-2058831586213992",
       "score": 58,
@@ -98,49 +142,6 @@
         [
           "2026-11-03",
           5772.5
-        ]
-      ],
-      "rank": 1
-    },
-    {
-      "id": "BOT-1956467265868055",
-      "score": 58,
-      "points": {
-        "net_profit": 2.9,
-        "profit_factor": 15.0,
-        "max_drawdown": 25.0,
-        "sharpe": 3.0,
-        "positive_days": 10.0,
-        "best_day_share": 2.2
-      },
-      "net_profit": 285.0,
-      "return_pct": 5.7,
-      "balance": 5285.0,
-      "max_drawdown": 0.0,
-      "profit_factor": null,
-      "no_losing_trade": true,
-      "sharpe": 33.67,
-      "positive_days": 100.0,
-      "best_day": 190.0,
-      "best_day_share": 66.7,
-      "trades": 15,
-      "days_traded": 2,
-      "markets": [
-        "MYM"
-      ],
-      "start_date": "2026-11-04",
-      "curve": [
-        [
-          "2026-11-03",
-          5000.0
-        ],
-        [
-          "2026-11-04",
-          5190.0
-        ],
-        [
-          "2026-11-05",
-          5285.0
         ]
       ],
       "rank": 2
@@ -264,57 +265,6 @@
       "rank": 4
     },
     {
-      "id": "BOT-4417569393526675",
-      "score": 42,
-      "points": {
-        "net_profit": 2.0,
-        "profit_factor": 1.6,
-        "max_drawdown": 24.0,
-        "sharpe": 6.0,
-        "positive_days": 8.8,
-        "best_day_share": 0.0
-      },
-      "net_profit": 202.0,
-      "return_pct": 4.04,
-      "balance": 5202.0,
-      "max_drawdown": 344.0,
-      "profit_factor": 1.22,
-      "no_losing_trade": false,
-      "sharpe": 4.6,
-      "positive_days": 75.0,
-      "best_day": 219.0,
-      "best_day_share": 108.4,
-      "trades": 167,
-      "days_traded": 4,
-      "markets": [
-        "MNQ"
-      ],
-      "start_date": "2026-11-02",
-      "curve": [
-        [
-          "2026-11-01",
-          5000.0
-        ],
-        [
-          "2026-11-02",
-          5144.0
-        ],
-        [
-          "2026-11-03",
-          5363.0
-        ],
-        [
-          "2026-11-04",
-          5183.0
-        ],
-        [
-          "2026-11-05",
-          5202.0
-        ]
-      ],
-      "rank": 5
-    },
-    {
       "id": "BOT-9525503092060538",
       "score": 39,
       "points": {
@@ -379,51 +329,58 @@
           6251.0
         ]
       ],
-      "rank": 6
+      "rank": 5
     },
     {
-      "id": "BOT-9093600857263133",
-      "score": 30,
+      "id": "BOT-4417569393526675",
+      "score": 34,
       "points": {
-        "net_profit": 0.7,
-        "profit_factor": 1.0,
-        "max_drawdown": 23.6,
-        "sharpe": 1.7,
+        "net_profit": 1.8,
+        "profit_factor": 1.1,
+        "max_drawdown": 22.7,
+        "sharpe": 6.0,
         "positive_days": 2.5,
         "best_day_share": 0.0
       },
-      "net_profit": 70.0,
-      "return_pct": 1.4,
-      "balance": 5070.0,
-      "max_drawdown": 380.0,
-      "profit_factor": 1.14,
+      "net_profit": 178.0,
+      "return_pct": 3.56,
+      "balance": 5178.0,
+      "max_drawdown": 455.0,
+      "profit_factor": 1.15,
       "no_losing_trade": false,
-      "sharpe": 1.67,
+      "sharpe": 4.01,
       "positive_days": 50.0,
-      "best_day": 270.0,
-      "best_day_share": 385.7,
-      "trades": 75,
-      "days_traded": 2,
+      "best_day": 219.0,
+      "best_day_share": 123.0,
+      "trades": 191,
+      "days_traded": 4,
       "markets": [
-        "MNQ",
-        "MYM"
+        "MNQ"
       ],
-      "start_date": "2026-11-04",
+      "start_date": "2026-11-02",
       "curve": [
         [
-          "2026-11-03",
+          "2026-11-01",
           5000.0
         ],
         [
+          "2026-11-02",
+          5144.0
+        ],
+        [
+          "2026-11-03",
+          5363.0
+        ],
+        [
           "2026-11-04",
-          4800.0
+          5183.0
         ],
         [
           "2026-11-05",
-          5070.0
+          5178.0
         ]
       ],
-      "rank": 7
+      "rank": 6
     }
   ]
 }
