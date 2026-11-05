@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T05:11:15Z",
+  "updated_at": "2026-11-05T06:11:15Z",
   "period": {
     "start": null,
     "end": null
@@ -68,7 +68,7 @@
       "positive_days": 100.0,
       "best_day": 221.0,
       "best_day_share": 53.8,
-      "trades": 29,
+      "trades": 34,
       "days_traded": 2,
       "markets": [
         "MGC",
@@ -385,26 +385,26 @@
     },
     {
       "id": "BOT-9093600857263133",
-      "score": 33,
+      "score": 34,
       "points": {
-        "net_profit": 2.1,
-        "profit_factor": 1.8,
+        "net_profit": 2.5,
+        "profit_factor": 2.2,
         "max_drawdown": 23.6,
         "sharpe": 3.0,
         "positive_days": 2.5,
         "best_day_share": 0.0
       },
-      "net_profit": 207.5,
-      "return_pct": 4.15,
-      "balance": 5207.5,
+      "net_profit": 252.5,
+      "return_pct": 5.05,
+      "balance": 5252.5,
       "max_drawdown": 380.0,
-      "profit_factor": 1.24,
+      "profit_factor": 1.29,
       "no_losing_trade": false,
-      "sharpe": 3.83,
+      "sharpe": 4.34,
       "positive_days": 50.0,
-      "best_day": 407.5,
-      "best_day_share": 196.4,
-      "trades": 130,
+      "best_day": 452.5,
+      "best_day_share": 179.2,
+      "trades": 135,
       "days_traded": 2,
       "markets": [
         "MNQ",
@@ -422,7 +422,7 @@
         ],
         [
           "2026-11-05",
-          5207.5
+          5252.5
         ]
       ],
       "rank": 7
