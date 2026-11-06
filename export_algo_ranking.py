@@ -8,6 +8,7 @@ Aucune donnée personnelle ni le prix payé ne sont écrits : le dépôt est pub
 Le solde YPF n'est pas fiable pour le classement : il reste figé quand Volumetrica passe un
 compte en « Challenge Failed », et il ne correspond pas au solde réel quand des positions sont
 ouvertes. Seuls les trades Buy/Sell clôturés comptent (pas les Deleted, Balance ni Credit).
+Les lignes d'une même position (plusieurs contrats, sorties partielles) comptent pour un trade.
 """
 
 from __future__ import annotations
@@ -35,6 +36,8 @@ DEFAULTS = {
     "period_start": None,
     "period_end": None,
     "day_start_utc_hour": 22,
+    # Lignes d'une même position (même symbole et sens) ouvertes à moins de ce délai : un seul trade.
+    "position_window_seconds": 1,
     # Le Sharpe est instable sur peu de jours : ses points montent jusqu'à ce nombre de jours tradés.
     "sharpe_full_days": 10,
     "output_file": "algo-ranking.json",
@@ -111,6 +114,48 @@ def is_closed_trade(trade: dict) -> bool:
 
 def trade_result(trade: dict) -> float:
     return float(trade.get("profit") or 0) - float(trade.get("commission") or 0)
+
+
+def group_positions(trades: list[dict], window_seconds: float) -> list[dict]:
+    """Regroupe en une position les lignes d'un même trade pris en plusieurs contrats.
+
+    YPF écrit une ligne par sortie (6 MNQ, 3 objectifs...) : elles ont le même symbole, le même
+    sens et la même heure d'ouverture (à `window_seconds` près pour un remplissage en plusieurs
+    morceaux). La position vaut la somme des lignes et se ferme à la dernière sortie.
+    """
+    def key(t: dict):
+        return (str(t.get("tradeSymbol") or ""), str(t.get("command") or "").lower())
+
+    never = datetime.min.replace(tzinfo=timezone.utc)
+    rows = sorted(trades, key=lambda t: (key(t), parse_time(t.get("openTime")) or never))
+    positions: list[dict] = []
+    current = opened = None
+    for t in rows:
+        open_time = parse_time(t.get("openTime"))
+        close_time = parse_time(t.get("closeTime"))
+        if (current is not None and open_time is not None and opened is not None
+                and key(t) == key(current)
+                and (open_time - opened).total_seconds() <= window_seconds):
+            current["profit"] += float(t.get("profit") or 0)
+            current["commission"] += float(t.get("commission") or 0)
+            current["volume"] += float(t.get("volume") or 0)
+            current["legs"] += 1
+            if close_time and close_time > parse_time(current["closeTime"]):
+                current["closeTime"] = t.get("closeTime")
+            continue
+        current = {
+            "tradeSymbol": t.get("tradeSymbol"),
+            "command": t.get("command"),
+            "openTime": t.get("openTime"),
+            "closeTime": t.get("closeTime"),
+            "profit": float(t.get("profit") or 0),
+            "commission": float(t.get("commission") or 0),
+            "volume": float(t.get("volume") or 0),
+            "legs": 1,
+        }
+        opened = open_time
+        positions.append(current)
+    return positions
 
 
 def market(symbol: str) -> str:
@@ -237,6 +282,7 @@ def main() -> None:
         raise SystemExit(f"Aucun compte {cfg['prefix']} renvoyé par YPF : classement non mis à jour.")
     initial = float(cfg["initial_balance"])
     ranked, diagnostic = [], []
+    fields: set = set()  # noms des champs d'une ligne d'historique YPF (sans valeurs)
     for account in bots:
         created = parse_time(account.get("createdAt")) or now
         start = max(created, period_start) if period_start else created
@@ -248,6 +294,9 @@ def main() -> None:
         )
         closed = [t for t in history if is_closed_trade(t)]
         balance = round(initial + sum(trade_result(t) for t in closed), 2)
+        positions = group_positions(closed, float(cfg["position_window_seconds"]))
+        for t in history:
+            fields.update(t.keys())
         ypf_balance = float(account.get("balance") or 0)
 
         kinds: Counter = Counter()
@@ -264,6 +313,8 @@ def main() -> None:
             "trades_balance": balance,
             "gap": round(ypf_balance - balance, 2),
             "rows": {k: [kinds[k], round(sums[k], 2)] for k in sorted(kinds)},
+            "closed_rows": len(closed),
+            "positions": len(positions),
         }
         if abs(entry["gap"]) >= 1:
             # Écart avec YPF : dernières lignes de l'historique pour comprendre (aucune donnée personnelle).
@@ -282,7 +333,7 @@ def main() -> None:
         if balance <= initial or ypf_balance <= initial:
             entry["excluded"] = "solde trades" if balance <= initial else "solde YPF"
             continue
-        period_trades = [t for t in closed if parse_time(t.get("closeTime")) >= start]
+        period_trades = [t for t in positions if parse_time(t.get("closeTime")) >= start]
         stats = compute_stats(balance, period_trades, cfg, start)
         total, points = score(stats, cfg)
         print(f"    -> score {total}  DD {stats['max_drawdown']}  PF {stats['profit_factor']}  "
@@ -313,7 +364,8 @@ def main() -> None:
         "accounts_in_gain": len(in_gain),
         "ranking": ranked,
     }
-    diag = {"updated_at": iso(now), "accounts": sorted(diagnostic, key=lambda d: -abs(d["gap"]))}
+    diag = {"updated_at": iso(now), "history_fields": sorted(fields),
+            "accounts": sorted(diagnostic, key=lambda d: -abs(d["gap"]))}
     (ROOT / cfg["diagnostic_file"]).write_text(
         json.dumps(diag, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
     )
