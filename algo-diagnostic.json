@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T02:11:12Z",
+  "updated_at": "2026-11-06T02:23:47Z",
   "accounts": [
     {
       "id": "BOT-8062332837092222",
@@ -493,7 +493,7 @@
       "id": "BOT-9525503092060538",
       "ypf_state": "Active",
       "ypf_balance": 5902.25,
-      "ypf_equity": 6020.25,
+      "ypf_equity": 6080.25,
       "trades_balance": 6091.25,
       "gap": -189.0,
       "rows": {
