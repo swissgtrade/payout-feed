@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T06:11:14Z",
+  "updated_at": "2026-11-06T07:11:18Z",
   "accounts": [
     {
       "id": "BOT-8062332837092222",
@@ -492,9 +492,9 @@
     {
       "id": "BOT-9525503092060538",
       "ypf_state": "Active",
-      "ypf_balance": 6007.25,
-      "ypf_equity": 5992.25,
-      "trades_balance": 6195.75,
+      "ypf_balance": 6040.0,
+      "ypf_equity": 5993.0,
+      "trades_balance": 6228.5,
       "gap": -188.5,
       "rows": {
         "ClosedNormal/Buy": [
@@ -502,22 +502,11 @@
           848.25
         ],
         "ClosedNormal/Sell": [
-          125,
-          347.5
+          126,
+          380.25
         ]
       },
       "recent": [
-        {
-          "openTime": "2026-11-05T11:00:04.46Z",
-          "closeTime": "2026-11-05T11:12:05.679Z",
-          "timestamp": "2026-11-05T11:12:05.698451Z",
-          "state": "ClosedNormal",
-          "command": "Sell",
-          "tradeSymbol": "NG.NYMEX",
-          "volume": 1,
-          "profit": -110.00000000000121,
-          "commission": 4
-        },
         {
           "openTime": "2026-11-05T09:45:00.234Z",
           "closeTime": "2026-11-05T11:14:22.166Z",
@@ -725,6 +714,17 @@
           "tradeSymbol": "MHG.COMEX",
           "volume": 1,
           "profit": -23.75000000000016,
+          "commission": 1
+        },
+        {
+          "openTime": "2026-11-06T06:20:01.419Z",
+          "closeTime": "2026-11-06T06:31:10.252Z",
+          "timestamp": "2026-11-06T06:31:10.271111Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "MHG.COMEX",
+          "volume": 1,
+          "profit": 33.75000000000128,
           "commission": 1
         }
       ]
@@ -973,10 +973,10 @@
     {
       "id": "BOT-1060364672318105",
       "ypf_state": "Active",
-      "ypf_balance": 4824.0,
-      "ypf_equity": 4824.0,
+      "ypf_balance": 4823.5,
+      "ypf_equity": 4755.5,
       "trades_balance": 4815.0,
-      "gap": 9.0,
+      "gap": 8.5,
       "rows": {
         "ClosedNormal/Buy": [
           112,
