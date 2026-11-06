@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T07:11:18Z",
+  "updated_at": "2026-11-06T08:11:14Z",
   "accounts": [
     {
       "id": "BOT-8062332837092222",
@@ -492,14 +492,14 @@
     {
       "id": "BOT-9525503092060538",
       "ypf_state": "Active",
-      "ypf_balance": 6040.0,
-      "ypf_equity": 5993.0,
-      "trades_balance": 6228.5,
+      "ypf_balance": 6071.5,
+      "ypf_equity": 5760.5,
+      "trades_balance": 6260.0,
       "gap": -188.5,
       "rows": {
         "ClosedNormal/Buy": [
-          139,
-          848.25
+          140,
+          879.75
         ],
         "ClosedNormal/Sell": [
           126,
@@ -507,17 +507,6 @@
         ]
       },
       "recent": [
-        {
-          "openTime": "2026-11-05T09:45:00.234Z",
-          "closeTime": "2026-11-05T11:14:22.166Z",
-          "timestamp": "2026-11-05T11:14:22.188403Z",
-          "state": "ClosedNormal",
-          "command": "Sell",
-          "tradeSymbol": "MYM.CBOT",
-          "volume": 1,
-          "profit": -45,
-          "commission": 1
-        },
         {
           "openTime": "2026-11-05T11:40:10.722Z",
           "closeTime": "2026-11-05T12:06:53.392Z",
@@ -725,6 +714,17 @@
           "tradeSymbol": "MHG.COMEX",
           "volume": 1,
           "profit": 33.75000000000128,
+          "commission": 1
+        },
+        {
+          "openTime": "2026-11-06T07:30:09.352Z",
+          "closeTime": "2026-11-06T07:34:16.407Z",
+          "timestamp": "2026-11-06T07:34:16.432408Z",
+          "state": "ClosedNormal",
+          "command": "Buy",
+          "tradeSymbol": "MHG.COMEX",
+          "volume": 1,
+          "profit": 32.500000000001975,
           "commission": 1
         }
       ]
@@ -974,7 +974,7 @@
       "id": "BOT-1060364672318105",
       "ypf_state": "Active",
       "ypf_balance": 4823.5,
-      "ypf_equity": 4755.5,
+      "ypf_equity": 4869.0,
       "trades_balance": 4815.0,
       "gap": 8.5,
       "rows": {
