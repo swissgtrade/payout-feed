@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T13:11:13Z",
+  "updated_at": "2026-11-06T14:11:14Z",
   "history_fields": [
     "accountId",
     "closePrice",
@@ -522,9 +522,9 @@
     {
       "id": "BOT-9525503092060538",
       "ypf_state": "Active",
-      "ypf_balance": 5680.0,
-      "ypf_equity": 5680.0,
-      "trades_balance": 5867.5,
+      "ypf_balance": 6226.0,
+      "ypf_equity": 6226.0,
+      "trades_balance": 6413.5,
       "gap": -187.5,
       "rows": {
         "ClosedNormal/Buy": [
@@ -532,24 +532,13 @@
           923.75
         ],
         "ClosedNormal/Sell": [
-          131,
-          -56.25
+          132,
+          489.75
         ]
       },
-      "closed_rows": 272,
-      "positions": 271,
+      "closed_rows": 273,
+      "positions": 272,
       "recent": [
-        {
-          "openTime": "2026-11-05T17:55:04.48Z",
-          "closeTime": "2026-11-05T18:42:06.349Z",
-          "timestamp": "2026-11-05T18:42:06.369039Z",
-          "state": "ClosedNormal",
-          "command": "Buy",
-          "tradeSymbol": "NG.NYMEX",
-          "volume": 1,
-          "profit": -169.99999999999903,
-          "commission": 4
-        },
         {
           "openTime": "2026-11-05T16:15:01.651Z",
           "closeTime": "2026-11-05T19:04:50.124Z",
@@ -757,6 +746,17 @@
           "tradeSymbol": "NG.NYMEX",
           "volume": 1,
           "profit": 169.99999999999903,
+          "commission": 4
+        },
+        {
+          "openTime": "2026-11-06T14:00:00.856Z",
+          "closeTime": "2026-11-06T14:03:02.687Z",
+          "timestamp": "2026-11-06T14:03:02.708175Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "NKD.CME",
+          "volume": 1,
+          "profit": 550,
           "commission": 4
         }
       ]
@@ -1008,7 +1008,7 @@
       "id": "BOT-1060364672318105",
       "ypf_state": "Active",
       "ypf_balance": 5155.5,
-      "ypf_equity": 5024.5,
+      "ypf_equity": 5113.0,
       "trades_balance": 5147.0,
       "gap": 8.5,
       "rows": {
