@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T11:11:14Z",
+  "updated_at": "2026-11-06T11:28:28Z",
   "period": {
     "start": null,
     "end": null
@@ -68,7 +68,7 @@
       "positive_days": 80.0,
       "best_day": 228.0,
       "best_day_share": 36.7,
-      "trades": 227,
+      "trades": 34,
       "days_traded": 5,
       "markets": [
         "MNQ"
@@ -123,7 +123,7 @@
       "positive_days": 72.7,
       "best_day": 3180.75,
       "best_day_share": 51.2,
-      "trades": 59,
+      "trades": 57,
       "days_traded": 11,
       "markets": [
         "MES"
@@ -202,7 +202,7 @@
       "positive_days": 66.7,
       "best_day": 493.0,
       "best_day_share": 72.2,
-      "trades": 248,
+      "trades": 48,
       "days_traded": 3,
       "markets": [
         "MNQ",
@@ -293,7 +293,7 @@
       "positive_days": 100.0,
       "best_day": 190.0,
       "best_day_share": 99.7,
-      "trades": 80,
+      "trades": 16,
       "days_traded": 2,
       "markets": [
         "MGC",
@@ -338,7 +338,7 @@
       "positive_days": 66.7,
       "best_day": 1069.5,
       "best_day_share": 152.5,
-      "trades": 271,
+      "trades": 270,
       "days_traded": 6,
       "markets": [
         "GC",
@@ -410,7 +410,7 @@
       "positive_days": 50.0,
       "best_day": 278.0,
       "best_day_share": 129.0,
-      "trades": 132,
+      "trades": 59,
       "days_traded": 4,
       "markets": [
         "MCL",
@@ -523,7 +523,7 @@
       "positive_days": 53.8,
       "best_day": 1259.0,
       "best_day_share": 856.5,
-      "trades": 209,
+      "trades": 137,
       "days_traded": 13,
       "markets": [
         "MNQ"
