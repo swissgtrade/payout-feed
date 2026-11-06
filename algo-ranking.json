@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T02:23:47Z",
+  "updated_at": "2026-11-06T03:11:18Z",
   "period": {
     "start": null,
     "end": null
@@ -274,26 +274,26 @@
     },
     {
       "id": "BOT-9525503092060538",
-      "score": 40,
+      "score": 41,
       "points": {
-        "net_profit": 10.9,
+        "net_profit": 12.0,
         "profit_factor": 1.0,
         "max_drawdown": 12.6,
         "sharpe": 9.0,
         "positive_days": 6.7,
         "best_day_share": 0.0
       },
-      "net_profit": 1091.25,
-      "return_pct": 21.82,
-      "balance": 6091.25,
+      "net_profit": 1195.75,
+      "return_pct": 23.91,
+      "balance": 6195.75,
       "max_drawdown": 1363.25,
-      "profit_factor": 1.13,
+      "profit_factor": 1.14,
       "no_losing_trade": false,
-      "sharpe": 4.66,
+      "sharpe": 5.24,
       "positive_days": 66.7,
       "best_day": 1069.5,
-      "best_day_share": 98.0,
-      "trades": 261,
+      "best_day_share": 89.4,
+      "trades": 264,
       "days_traded": 6,
       "markets": [
         "GC",
@@ -339,7 +339,7 @@
         ],
         [
           "2026-11-06",
-          6091.25
+          6195.75
         ]
       ],
       "rank": 5
@@ -452,24 +452,24 @@
       "id": "BOT-8517304211838272",
       "score": 28,
       "points": {
-        "net_profit": 0.9,
+        "net_profit": 1.0,
         "profit_factor": 0.8,
         "max_drawdown": 22.4,
-        "sharpe": 4.0,
+        "sharpe": 4.3,
         "positive_days": 0.0,
         "best_day_share": 0.0
       },
-      "net_profit": 91.5,
-      "return_pct": 1.83,
-      "balance": 5091.5,
+      "net_profit": 97.5,
+      "return_pct": 1.95,
+      "balance": 5097.5,
       "max_drawdown": 488.0,
       "profit_factor": 1.1,
       "no_losing_trade": false,
-      "sharpe": 2.02,
+      "sharpe": 2.16,
       "positive_days": 25.0,
       "best_day": 278.0,
-      "best_day_share": 303.8,
-      "trades": 114,
+      "best_day_share": 285.1,
+      "trades": 118,
       "days_traded": 4,
       "markets": [
         "MCL",
@@ -497,7 +497,7 @@
         ],
         [
           "2026-11-06",
-          5091.5
+          5097.5
         ]
       ],
       "rank": 8
