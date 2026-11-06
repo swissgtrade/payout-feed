@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T23:11:14Z",
+  "updated_at": "2026-11-06T00:11:14Z",
   "accounts": [
     {
       "id": "BOT-8062332837092222",
@@ -492,32 +492,21 @@
     {
       "id": "BOT-9525503092060538",
       "ypf_state": "Active",
-      "ypf_balance": 6256.0,
-      "ypf_equity": 6256.0,
-      "trades_balance": 6443.5,
-      "gap": -187.5,
+      "ypf_balance": 6214.0,
+      "ypf_equity": 6095.25,
+      "trades_balance": 6402.0,
+      "gap": -188.0,
       "rows": {
         "ClosedNormal/Buy": [
           135,
           737.25
         ],
         "ClosedNormal/Sell": [
-          121,
-          706.25
+          122,
+          664.75
         ]
       },
       "recent": [
-        {
-          "openTime": "2026-11-05T07:15:00.357Z",
-          "closeTime": "2026-11-05T08:00:12.163Z",
-          "timestamp": "2026-11-05T08:00:12.18609Z",
-          "state": "ClosedNormal",
-          "command": "Sell",
-          "tradeSymbol": "MCL.NYMEX",
-          "volume": 1,
-          "profit": -59.00000000000034,
-          "commission": 1
-        },
         {
           "openTime": "2026-11-05T08:00:00.4Z",
           "closeTime": "2026-11-05T08:03:55.105Z",
@@ -726,6 +715,17 @@
           "volume": 1,
           "profit": -150,
           "commission": 4
+        },
+        {
+          "openTime": "2026-11-06T00:00:00.343Z",
+          "closeTime": "2026-11-06T00:00:00.704Z",
+          "timestamp": "2026-11-06T00:00:00.721629Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "MNQ.CME",
+          "volume": 1,
+          "profit": -40.5,
+          "commission": 1
         }
       ]
     },
@@ -1229,14 +1229,14 @@
     {
       "id": "BOT-9093600857263133",
       "ypf_state": "Active",
-      "ypf_balance": 5293.0,
-      "ypf_equity": 5293.0,
-      "trades_balance": 5293.0,
+      "ypf_balance": 5347.0,
+      "ypf_equity": 5347.0,
+      "trades_balance": 5347.0,
       "gap": 0.0,
       "rows": {
         "ClosedNormal/Buy": [
-          115,
-          374.5
+          121,
+          428.5
         ],
         "ClosedNormal/Sell": [
           103,
