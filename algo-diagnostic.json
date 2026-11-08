@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T20:52:11Z",
+  "updated_at": "2026-11-08T00:32:43Z",
   "history_fields": [
     "accountId",
     "closePrice",
@@ -1245,6 +1245,18 @@
           "commission": 1
         }
       ]
+    },
+    {
+      "id": "BOT-6323041262042381",
+      "ypf_state": "Active",
+      "ypf_balance": 5000.0,
+      "ypf_equity": 5000.0,
+      "trades_balance": 5000.0,
+      "gap": 0.0,
+      "rows": {},
+      "closed_rows": 0,
+      "positions": 0,
+      "excluded": "solde trades"
     },
     {
       "id": "BOT-5985115771848889",

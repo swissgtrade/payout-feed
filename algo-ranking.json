@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T20:52:11Z",
+  "updated_at": "2026-11-08T00:32:43Z",
   "period": {
     "start": null,
     "end": null
@@ -44,7 +44,7 @@
       "full": 20
     }
   ],
-  "accounts_tracked": 24,
+  "accounts_tracked": 25,
   "accounts_in_gain": 10,
   "ranking": [
     {
