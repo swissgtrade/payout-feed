@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T20:11:17Z",
+  "updated_at": "2026-11-09T21:11:16Z",
   "history_fields": [
     "accountId",
     "closePrice",
@@ -555,34 +555,23 @@
     {
       "id": "BOT-9525503092060538",
       "ypf_state": "Active",
-      "ypf_balance": 6147.5,
-      "ypf_equity": 6182.5,
-      "trades_balance": 8064.5,
-      "gap": -1917.0,
+      "ypf_balance": 6113.5,
+      "ypf_equity": 6046.0,
+      "trades_balance": 8031.0,
+      "gap": -1917.5,
       "rows": {
         "ClosedNormal/Buy": [
           174,
           2634.75
         ],
         "ClosedNormal/Sell": [
-          161,
-          429.75
+          162,
+          396.25
         ]
       },
-      "closed_rows": 335,
-      "positions": 334,
+      "closed_rows": 336,
+      "positions": 335,
       "recent": [
-        {
-          "openTime": "2026-11-09T14:10:00.229Z",
-          "closeTime": "2026-11-09T14:16:17.757Z",
-          "timestamp": "2026-11-09T14:16:17.771412Z",
-          "state": "ClosedNormal",
-          "command": "Buy",
-          "tradeSymbol": "MNQ.CME",
-          "volume": 1,
-          "profit": 45,
-          "commission": 1
-        },
         {
           "openTime": "2026-11-09T13:40:34.074Z",
           "closeTime": "2026-11-09T14:20:04.502Z",
@@ -790,6 +779,17 @@
           "tradeSymbol": "MHG.COMEX",
           "volume": 1,
           "profit": 32.49999999999975,
+          "commission": 1
+        },
+        {
+          "openTime": "2026-11-09T20:15:00.084Z",
+          "closeTime": "2026-11-09T20:15:13.462Z",
+          "timestamp": "2026-11-09T20:15:13.469503Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "MNQ.CME",
+          "volume": 1,
+          "profit": -32.5,
           "commission": 1
         }
       ]
@@ -1493,7 +1493,7 @@
       "id": "BOT-1060364672318105",
       "ypf_state": "Active",
       "ypf_balance": 7889.5,
-      "ypf_equity": 7913.5,
+      "ypf_equity": 7858.0,
       "trades_balance": 7881.0,
       "gap": 8.5,
       "rows": {
@@ -1734,19 +1734,22 @@
     {
       "id": "BOT-4579867662555733",
       "ypf_state": "Active",
-      "ypf_balance": 4899.5,
-      "ypf_equity": 5634.5,
-      "trades_balance": 4900.0,
+      "ypf_balance": 5546.0,
+      "ypf_equity": 5560.5,
+      "trades_balance": 5546.5,
       "gap": -0.5,
       "rows": {
         "ClosedNormal/Buy": [
-          1,
-          -100.0
+          12,
+          569.5
+        ],
+        "ClosedNormal/Sell": [
+          10,
+          -23.0
         ]
       },
-      "closed_rows": 1,
-      "positions": 1,
-      "excluded": "solde trades"
+      "closed_rows": 22,
+      "positions": 22
     },
     {
       "id": "BOT-6192455356057268",
@@ -1848,9 +1851,9 @@
     {
       "id": "BOT-5985115771848889",
       "ypf_state": "Active",
-      "ypf_balance": 6462.25,
-      "ypf_equity": 6462.25,
-      "trades_balance": 6462.25,
+      "ypf_balance": 6274.25,
+      "ypf_equity": 6274.25,
+      "trades_balance": 6274.25,
       "gap": 0.0,
       "rows": {
         "ClosedNormal/Buy": [
@@ -1858,12 +1861,12 @@
           1455.75
         ],
         "ClosedNormal/Sell": [
-          14,
-          6.5
+          16,
+          -181.5
         ]
       },
-      "closed_rows": 34,
-      "positions": 34
+      "closed_rows": 36,
+      "positions": 36
     },
     {
       "id": "BOT-9093600857263133",
@@ -2055,22 +2058,22 @@
     {
       "id": "BOT-2058831586213992",
       "ypf_state": "Active",
-      "ypf_balance": 7088.75,
-      "ypf_equity": 7088.75,
-      "trades_balance": 7088.75,
+      "ypf_balance": 6953.75,
+      "ypf_equity": 6953.75,
+      "trades_balance": 6953.75,
       "gap": 0.0,
       "rows": {
         "ClosedNormal/Buy": [
-          11,
-          1212.25
+          12,
+          1077.25
         ],
         "ClosedNormal/Sell": [
           9,
           876.5
         ]
       },
-      "closed_rows": 20,
-      "positions": 20
+      "closed_rows": 21,
+      "positions": 21
     },
     {
       "id": "BOT-3402686058146175",
