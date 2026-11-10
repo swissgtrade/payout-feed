@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T09:11:14Z",
+  "updated_at": "2026-11-10T09:44:30Z",
   "period": {
     "start": null,
     "end": null
@@ -95,19 +95,19 @@
         "max_drawdown": 12.6,
         "sharpe": 12.0,
         "positive_days": 8.8,
-        "best_day_share": 7.4
+        "best_day_share": 7.3
       },
-      "net_profit": 3006.75,
-      "return_pct": 60.13,
-      "balance": 8006.75,
+      "net_profit": 2965.75,
+      "return_pct": 59.31,
+      "balance": 7965.75,
       "max_drawdown": 1363.25,
       "profit_factor": 1.26,
       "no_losing_trade": false,
-      "sharpe": 10.58,
+      "sharpe": 10.35,
       "positive_days": 75.0,
       "best_day": 1069.5,
-      "best_day_share": 35.6,
-      "trades": 358,
+      "best_day_share": 36.1,
+      "trades": 359,
       "days_traded": 8,
       "markets": [
         "GC",
@@ -163,7 +163,7 @@
         ],
         [
           "2026-11-10",
-          8006.75
+          7965.75
         ]
       ],
       "rank": 2
