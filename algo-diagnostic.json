@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T10:11:14Z",
+  "updated_at": "2026-11-12T10:59:56Z",
   "history_fields": [
     "accountId",
     "closePrice",
@@ -1737,7 +1737,7 @@
       "id": "BOT-1060364672318105",
       "ypf_state": "Active",
       "ypf_balance": 9361.0,
-      "ypf_equity": 9215.5,
+      "ypf_equity": 9296.0,
       "trades_balance": 9352.5,
       "gap": 8.5,
       "rows": {
@@ -1979,7 +1979,7 @@
       "id": "BOT-7301772457403182",
       "ypf_state": "Active",
       "ypf_balance": 4998.0,
-      "ypf_equity": 5038.0,
+      "ypf_equity": 5108.0,
       "trades_balance": 5000.0,
       "gap": -2.0,
       "rows": {},
@@ -1992,7 +1992,7 @@
       "id": "BOT-9517409723160707",
       "ypf_state": "Active",
       "ypf_balance": 9467.25,
-      "ypf_equity": 9382.25,
+      "ypf_equity": 9327.25,
       "trades_balance": 9469.25,
       "gap": -2.0,
       "rows": {
@@ -2234,7 +2234,7 @@
       "id": "BOT-6192455356057268",
       "ypf_state": "Active",
       "ypf_balance": 6141.5,
-      "ypf_equity": 5996.0,
+      "ypf_equity": 6076.5,
       "trades_balance": 6142.0,
       "gap": -0.5,
       "rows": {
@@ -2254,7 +2254,7 @@
       "id": "BOT-2750347923249703",
       "ypf_state": "Active",
       "ypf_balance": 5660.5,
-      "ypf_equity": 5515.0,
+      "ypf_equity": 5595.5,
       "trades_balance": 5661.0,
       "gap": -0.5,
       "rows": {
@@ -2378,9 +2378,9 @@
     {
       "id": "BOT-9093600857263133",
       "ypf_state": "Active",
-      "ypf_balance": 4693.0,
-      "ypf_equity": 4693.0,
-      "trades_balance": 4693.0,
+      "ypf_balance": 4807.0,
+      "ypf_equity": 4807.0,
+      "trades_balance": 4807.0,
       "gap": 0.0,
       "rows": {
         "ClosedNormal/Buy": [
@@ -2388,12 +2388,12 @@
           380.5
         ],
         "ClosedNormal/Sell": [
-          283,
-          -687.5
+          289,
+          -573.5
         ]
       },
-      "closed_rows": 626,
-      "positions": 111,
+      "closed_rows": 632,
+      "positions": 112,
       "excluded": "solde trades"
     },
     {
@@ -2526,22 +2526,22 @@
     {
       "id": "BOT-2058831586213992",
       "ypf_state": "Active",
-      "ypf_balance": 6960.0,
-      "ypf_equity": 6960.0,
-      "trades_balance": 6960.0,
+      "ypf_balance": 6862.5,
+      "ypf_equity": 6862.5,
+      "trades_balance": 6862.5,
       "gap": 0.0,
       "rows": {
         "ClosedNormal/Buy": [
-          28,
-          1371.5
+          29,
+          1274.0
         ],
         "ClosedNormal/Sell": [
           18,
           588.5
         ]
       },
-      "closed_rows": 46,
-      "positions": 46
+      "closed_rows": 47,
+      "positions": 47
     },
     {
       "id": "BOT-3402686058146175",
