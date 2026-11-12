@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T20:11:14Z",
+  "updated_at": "2026-11-12T21:11:14Z",
   "period": {
     "start": null,
     "end": null
@@ -152,24 +152,24 @@
       "id": "BOT-2058831586213992",
       "score": 59,
       "points": {
-        "net_profit": 18.2,
+        "net_profit": 18.3,
         "profit_factor": 3.5,
         "max_drawdown": 17.1,
         "sharpe": 15.0,
         "positive_days": 5.0,
         "best_day_share": 0.0
       },
-      "net_profit": 1817.25,
-      "return_pct": 36.34,
-      "balance": 6817.25,
+      "net_profit": 1826.25,
+      "return_pct": 36.52,
+      "balance": 6826.25,
       "max_drawdown": 961.0,
       "profit_factor": 1.47,
       "no_losing_trade": false,
-      "sharpe": 4.43,
+      "sharpe": 4.45,
       "positive_days": 60.0,
       "best_day": 1739.25,
-      "best_day_share": 95.7,
-      "trades": 54,
+      "best_day_share": 95.2,
+      "trades": 55,
       "days_traded": 10,
       "markets": [
         "ES",
@@ -219,7 +219,7 @@
         ],
         [
           "2026-11-12",
-          6817.25
+          6826.25
         ]
       ],
       "rank": 3
@@ -516,24 +516,24 @@
       "id": "BOT-5985115771848889",
       "score": 49,
       "points": {
-        "net_profit": 15.0,
-        "profit_factor": 2.8,
+        "net_profit": 14.7,
+        "profit_factor": 2.7,
         "max_drawdown": 15.6,
         "sharpe": 9.0,
         "positive_days": 6.7,
         "best_day_share": 0.0
       },
-      "net_profit": 1503.5,
-      "return_pct": 30.07,
-      "balance": 6503.5,
+      "net_profit": 1473.5,
+      "return_pct": 29.47,
+      "balance": 6473.5,
       "max_drawdown": 1094.5,
-      "profit_factor": 1.37,
+      "profit_factor": 1.36,
       "no_losing_trade": false,
-      "sharpe": 6.61,
+      "sharpe": 6.5,
       "positive_days": 66.7,
       "best_day": 1215.0,
-      "best_day_share": 80.8,
-      "trades": 75,
+      "best_day_share": 82.5,
+      "trades": 77,
       "days_traded": 6,
       "markets": [
         "MES",
@@ -567,7 +567,7 @@
         ],
         [
           "2026-11-12",
-          6503.5
+          6473.5
         ]
       ],
       "rank": 8
