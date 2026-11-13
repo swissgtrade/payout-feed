@@ -1,0 +1,54 @@
+name: Bundles 4 comptes
+
+on:
+  # Lancement manuel : onglet Actions > Bundles 4 comptes > Run workflow
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "simulation (ne cree rien) ou reel (cree les comptes)"
+        type: choice
+        options: [simulation, reel]
+        default: simulation
+  # Lancement automatique : a activer une fois la simulation validee.
+  # schedule:
+  #   - cron: "*/30 * * * *"
+
+permissions:
+  contents: read
+
+# Jamais deux passages en meme temps (evite les doublons de comptes)
+concurrency:
+  group: bundles
+  cancel-in-progress: false
+
+jobs:
+  bundles:
+    runs-on: ubuntu-latest
+    environment: API PAYOUT
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: bundles
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Completer les bundles
+        env:
+          API_BASE_URL: ${{ secrets.API_BASE_URL }}
+          YPF_API_KEY: ${{ secrets.API_KEY }}
+          MODE: ${{ inputs.mode || 'reel' }}
+        run: |
+          if [ -n "$API_BASE_URL" ]; then
+            export YPF_API_BASE_URL="${API_BASE_URL%/}/client/v1"
+          fi
+          if [ "$MODE" = "reel" ]; then
+            python ypf_bundles.py --live
+          else
+            python ypf_bundles.py --dry-run
+          fi
