@@ -1,7 +1,19 @@
 {
-  "updated_at": "2026-11-13T12:11:41Z",
-  "total_amount": 265200.83,
+  "updated_at": "2026-11-13T13:11:40Z",
+  "total_amount": 265934.78,
   "payouts": [
+    {
+      "name": "LOVENEESH",
+      "amount": "$1,800.00",
+      "status": "Versé",
+      "image": "certs/6a6ab163de1ba99c83b2fd24.png"
+    },
+    {
+      "name": "THEODORE",
+      "amount": "$733.95",
+      "status": "Versé",
+      "image": "certs/6ae197b9fb40aac7519e1f11.png"
+    },
     {
       "name": "LUCAS",
       "amount": "$1,167.30",
@@ -49,18 +61,6 @@
       "amount": "$1,800.00",
       "status": "Versé",
       "image": "certs/6a9b4716b702d46ff5fd22ca.png"
-    },
-    {
-      "name": "EUGENIO",
-      "amount": "$1,800.00",
-      "status": "Versé",
-      "image": "certs/6acdc977d12cb203248bc200.png"
-    },
-    {
-      "name": "EUGENIO",
-      "amount": "$1,800.00",
-      "status": "Versé",
-      "image": "certs/6acdc9577629e5ff01155b5d.png"
     }
   ]
 }
