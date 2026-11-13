@@ -1,0 +1,21 @@
+{
+  "api_base_url": "https://bqsyp740n4.execute-api.ap-southeast-1.amazonaws.com/client/v1",
+  "api_base_url_ancienne": "https://api.ypf.customers.sigma-ventures.cloud/client/v1",
+  "dry_run": true,
+  "start_at": "2026-11-12T00:00:00Z",
+  "lookback_minutes": 2880,
+  "bundle_size": 4,
+  "income_per_extra_account": 0,
+  "max_accounts_created_per_run": 30,
+  "bundle_name_pattern": "4\\s*accounts?",
+  "bundle_products": {
+    "6af5934a455a0f2702192cfe": { "name": "Classic 50K", "bundle_price": 186 },
+    "6af59369465f1f2d736054c7": { "name": "Classic 100K", "bundle_price": 376 },
+    "6af59385e279fd21c61b81b2": { "name": "Classic 200K", "bundle_price": 573 },
+    "6af593a16e2474b9f0822c3b": { "name": "Classic 300K", "bundle_price": 763 },
+    "6af592a74f010ba4e9c75a41": { "name": "Pro 50K", "bundle_price": 452 },
+    "6af592d94f010ba4e9c75a43": { "name": "Pro 100K", "bundle_price": 604 },
+    "6af592f79e17a59f196db89b": { "name": "Pro 200K", "bundle_price": 756 },
+    "6af5931d8b54c0c2acc3d725": { "name": "Pro 300K", "bundle_price": 946 }
+  }
+}
