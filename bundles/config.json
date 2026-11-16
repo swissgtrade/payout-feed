@@ -1,9 +1,8 @@
 {
-  "api_base_url": "https://bqsyp740n4.execute-api.ap-southeast-1.amazonaws.com/client/v1",
-  "api_base_url_ancienne": "https://api.ypf.customers.sigma-ventures.cloud/client/v1",
+  "api_base_url": "https://api.ypf.customers.sigma-ventures.cloud/client/v1",
   "dry_run": true,
   "start_at": "2026-11-12T00:00:00Z",
-  "lookback_minutes": 2880,
+  "lookback_minutes": 10080,
   "bundle_size": 4,
   "income_per_extra_account": 0,
   "max_accounts_created_per_run": 30,
