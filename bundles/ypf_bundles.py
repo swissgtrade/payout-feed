@@ -165,6 +165,9 @@ def process(cfg, api):
             continue
 
         inv, uid = o.get("invoiceId"), o.get("userId")
+        only = cfg.get("only_invoice")
+        if only and inv != only:
+            continue
         who = f"{o.get('userFirstName','')} {o.get('userLastName','')} <{o.get('userEmail','')}>".strip()
         tag = f"[commande {inv} · {o.get('productName')} · {who}]"
         if not inv or not uid:
@@ -201,7 +204,7 @@ def process(cfg, api):
             if dry:
                 continue
             acc = api.create_account(uid, payload)
-            log.info("%s   ✔ compte créé %s/%s : id=%s login=%s", tag, i + 1, missing,
+            log.info("%s   OK compte créé %s/%s : id=%s login=%s", tag, i + 1, missing,
                      (acc or {}).get("id"), (acc or {}).get("login"))
             created_total += 1
             budget -= 1
@@ -216,7 +219,15 @@ def main():
     mode = p.add_mutually_exclusive_group()
     mode.add_argument("--dry-run", action="store_true", help="simulation : n'appelle jamais la création de compte")
     mode.add_argument("--live", action="store_true", help="mode réel : crée les comptes même si dry_run vaut true dans la config")
+    p.add_argument("--only-invoice", metavar="ID", help="ne traite que cette commande (invoiceId), pour les tests")
     args = p.parse_args()
+
+    # Console Windows : évite les erreurs d'encodage (accents, symboles) quand la sortie est redirigée.
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding="utf-8", errors="replace")
+        except (AttributeError, ValueError):
+            pass
 
     logging.basicConfig(
         level=logging.INFO,
@@ -229,6 +240,9 @@ def main():
         cfg["dry_run"] = True
     elif args.live:
         cfg["dry_run"] = False
+    if args.only_invoice:
+        cfg["only_invoice"] = args.only_invoice
+        log.info("Limité à la commande %s", args.only_invoice)
     log.info("Mode : %s · API : %s", "SIMULATION" if cfg["dry_run"] else "RÉEL", cfg["api_base_url"])
     api = YpfApi(cfg["api_base_url"], cfg["api_key"])
     try:
