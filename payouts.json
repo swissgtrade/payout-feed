@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-11-16T06:12:55Z",
-  "total_amount": 265934.78,
+  "updated_at": "2026-11-16T16:05:44Z",
+  "total_amount": 267459.38,
   "payouts": [
     {
-      "name": "LOVENEESH",
-      "amount": "$1,800.00",
+      "name": "MAËL",
+      "amount": "$354.60",
       "status": "Versé",
-      "image": "certs/6a6ab163de1ba99c83b2fd24.png"
+      "image": "certs/6af8c1e2d1086508edd5615d.png"
     },
     {
-      "name": "THEODORE",
-      "amount": "$733.95",
+      "name": "NIKOLAY",
+      "amount": "$1,170.00",
       "status": "Versé",
-      "image": "certs/6ae197b9fb40aac7519e1f11.png"
+      "image": "certs/6af496779c6fdc10ed8e299c.png"
     },
     {
       "name": "LUCAS",
@@ -27,6 +27,30 @@
       "image": "certs/6af350721e18157060be9912.png"
     },
     {
+      "name": "JULIO",
+      "amount": "$1,161.90",
+      "status": "Versé",
+      "image": "certs/6aed1c37953c3abc87e2f806.png"
+    },
+    {
+      "name": "RÉMI",
+      "amount": "$1,594.80",
+      "status": "Versé",
+      "image": "certs/6ab5d0fb2846c521ad2954fd.png"
+    },
+    {
+      "name": "LOVENEESH",
+      "amount": "$1,800.00",
+      "status": "Versé",
+      "image": "certs/6a6ab163de1ba99c83b2fd24.png"
+    },
+    {
+      "name": "THEODORE",
+      "amount": "$733.95",
+      "status": "Versé",
+      "image": "certs/6ae197b9fb40aac7519e1f11.png"
+    },
+    {
       "name": "YVES",
       "amount": "$1,080.00",
       "status": "Versé",
@@ -37,30 +61,6 @@
       "amount": "$610.20",
       "status": "Versé",
       "image": "certs/6aed90cc676439bb77cd77a3.png"
-    },
-    {
-      "name": "BERNARD",
-      "amount": "$1,499.50",
-      "status": "Versé",
-      "image": "certs/6ad31dd0905a2a1ffadd3e39.png"
-    },
-    {
-      "name": "BERNARD",
-      "amount": "$1,347.52",
-      "status": "Versé",
-      "image": "certs/6aba381d1b5d8936dd4885f6.png"
-    },
-    {
-      "name": "THOMAS",
-      "amount": "$1,800.00",
-      "status": "Versé",
-      "image": "certs/6aa1d5cd2d20c809eacf5e37.png"
-    },
-    {
-      "name": "THOMAS",
-      "amount": "$1,800.00",
-      "status": "Versé",
-      "image": "certs/6a9b4716b702d46ff5fd22ca.png"
     }
   ]
 }
