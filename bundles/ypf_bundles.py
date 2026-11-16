@@ -150,6 +150,7 @@ def process(cfg, api):
     dry = cfg["dry_run"]
     size = int(cfg["bundle_size"])
     budget = int(cfg["max_accounts_created_per_run"])
+    min_age = int(cfg.get("min_order_age_minutes", 0))
     created_total = 0
 
     orders = api.list_paid_orders(since, now)
@@ -160,6 +161,12 @@ def process(cfg, api):
             continue
         paid = parse_dt(o.get("paidAt") or o.get("createdAt"))
         if paid and paid < start_at:
+            continue
+        # Les commandes toutes récentes sont laissées au webhook instantané (évite les doublons).
+        if paid and min_age and paid > now - timedelta(minutes=min_age):
+            if is_bundle(o, cfg):
+                log.info("[commande %s · %s] payée il y a moins de %d min – laissée au webhook",
+                         o.get("invoiceId"), o.get("productName"), min_age)
             continue
         if not is_bundle(o, cfg):
             continue
