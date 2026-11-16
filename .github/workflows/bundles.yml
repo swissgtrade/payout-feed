@@ -9,9 +9,10 @@ on:
         type: choice
         options: [simulation, reel]
         default: simulation
-  # Lancement automatique : a activer une fois la simulation validee.
-  # schedule:
-  #   - cron: "*/30 * * * *"
+  # Lancement automatique en mode REEL toutes les 30 min (a :17 et :47),
+  # decale des workflows payouts (:00, :03, :07, :11).
+  schedule:
+    - cron: "17,47 * * * *"
 
 permissions:
   contents: read
