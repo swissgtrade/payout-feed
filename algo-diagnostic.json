@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T17:11:27Z",
+  "updated_at": "2026-11-17T18:11:13Z",
   "history_fields": [
     "accountId",
     "closePrice",
@@ -272,7 +272,7 @@
       "id": "BOT-9306293012632224",
       "ypf_state": "Active",
       "ypf_balance": 5019.5,
-      "ypf_equity": 5029.5,
+      "ypf_equity": 5849.5,
       "trades_balance": -586.5,
       "gap": 5606.0,
       "rows": {
@@ -555,56 +555,23 @@
     {
       "id": "BOT-9525503092060538",
       "ypf_state": "Active",
-      "ypf_balance": 3973.86,
-      "ypf_equity": 3960.86,
-      "trades_balance": 5894.36,
-      "gap": -1920.5,
+      "ypf_balance": 3899.86,
+      "ypf_equity": 3918.86,
+      "trades_balance": 5817.36,
+      "gap": -1917.5,
       "rows": {
         "ClosedNormal/Buy": [
-          285,
-          638.86
+          287,
+          670.86
         ],
         "ClosedNormal/Sell": [
-          293,
-          255.5
+          294,
+          146.5
         ]
       },
-      "closed_rows": 578,
-      "positions": 577,
+      "closed_rows": 581,
+      "positions": 580,
       "recent": [
-        {
-          "openTime": "2026-11-17T03:34:47.535Z",
-          "closeTime": "2026-11-17T03:36:15.447Z",
-          "timestamp": "2026-11-17T03:36:15.468545Z",
-          "state": "ClosedNormal",
-          "command": "Sell",
-          "tradeSymbol": "MNQ.CME",
-          "volume": 1,
-          "profit": -40,
-          "commission": 1
-        },
-        {
-          "openTime": "2026-11-17T03:10:00.267Z",
-          "closeTime": "2026-11-17T03:36:23.215Z",
-          "timestamp": "2026-11-17T03:36:23.234837Z",
-          "state": "ClosedNormal",
-          "command": "Sell",
-          "tradeSymbol": "MES.CME",
-          "volume": 1,
-          "profit": -47.5,
-          "commission": 1
-        },
-        {
-          "openTime": "2026-11-17T03:10:02.176Z",
-          "closeTime": "2026-11-17T03:50:12.564Z",
-          "timestamp": "2026-11-17T03:50:12.57319Z",
-          "state": "ClosedNormal",
-          "command": "Sell",
-          "tradeSymbol": "MYM.CBOT",
-          "volume": 2,
-          "profit": 45,
-          "commission": 2
-        },
         {
           "openTime": "2026-11-17T03:10:30.552Z",
           "closeTime": "2026-11-17T03:57:15.221Z",
@@ -791,6 +758,39 @@
           "volume": 1,
           "profit": -56.249999999999915,
           "commission": 1
+        },
+        {
+          "openTime": "2026-11-17T17:10:00.36Z",
+          "closeTime": "2026-11-17T17:17:47.177Z",
+          "timestamp": "2026-11-17T17:17:47.187179Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "M2KZ26.CME",
+          "volume": 2,
+          "profit": -107.00000000000273,
+          "commission": 2
+        },
+        {
+          "openTime": "2026-11-17T16:35:01.675Z",
+          "closeTime": "2026-11-17T17:29:29.439Z",
+          "timestamp": "2026-11-17T17:29:29.451382Z",
+          "state": "ClosedNormal",
+          "command": "Buy",
+          "tradeSymbol": "NG.NYMEX",
+          "volume": 1,
+          "profit": 250.00000000000355,
+          "commission": 4
+        },
+        {
+          "openTime": "2026-11-17T17:45:00.489Z",
+          "closeTime": "2026-11-17T17:55:46.363Z",
+          "timestamp": "2026-11-17T17:55:46.381243Z",
+          "state": "ClosedNormal",
+          "command": "Buy",
+          "tradeSymbol": "NG.NYMEX",
+          "volume": 1,
+          "profit": -209.9999999999991,
+          "commission": 4
         }
       ],
       "excluded": "solde YPF"
@@ -1494,34 +1494,23 @@
     {
       "id": "BOT-8517304211838272",
       "ypf_state": "Active",
-      "ypf_balance": 5082.5,
-      "ypf_equity": 5082.5,
-      "trades_balance": 5126.5,
+      "ypf_balance": 5093.5,
+      "ypf_equity": 5093.5,
+      "trades_balance": 5137.5,
       "gap": -44.0,
       "rows": {
         "ClosedNormal/Buy": [
-          171,
-          -362.5
+          172,
+          -351.5
         ],
         "ClosedNormal/Sell": [
           202,
           489.0
         ]
       },
-      "closed_rows": 373,
-      "positions": 154,
+      "closed_rows": 374,
+      "positions": 155,
       "recent": [
-        {
-          "openTime": "2026-11-17T07:02:10.723Z",
-          "closeTime": "2026-11-17T07:05:00.985Z",
-          "timestamp": "2026-11-17T07:05:00.999739Z",
-          "state": "ClosedNormal",
-          "command": "Buy",
-          "tradeSymbol": "MCL.NYMEX",
-          "volume": 2,
-          "profit": 13.999999999998636,
-          "commission": 2
-        },
         {
           "openTime": "2026-11-17T07:00:56.715Z",
           "closeTime": "2026-11-17T07:05:00.985Z",
@@ -1730,6 +1719,17 @@
           "volume": 1,
           "profit": 25.99999999999909,
           "commission": 1
+        },
+        {
+          "openTime": "2026-11-17T17:15:20.363Z",
+          "closeTime": "2026-11-17T17:17:02.337Z",
+          "timestamp": "2026-11-17T17:17:02.378258Z",
+          "state": "ClosedNormal",
+          "command": "Buy",
+          "tradeSymbol": "MCL.NYMEX",
+          "volume": 1,
+          "profit": 12.000000000000455,
+          "commission": 1
         }
       ]
     },
@@ -1737,7 +1737,7 @@
       "id": "BOT-1060364672318105",
       "ypf_state": "Active",
       "ypf_balance": 7979.5,
-      "ypf_equity": 7880.5,
+      "ypf_equity": 7877.5,
       "trades_balance": 7971.0,
       "gap": 8.5,
       "rows": {
@@ -1979,7 +1979,7 @@
       "id": "BOT-6192455356057268",
       "ypf_state": "Active",
       "ypf_balance": 6454.0,
-      "ypf_equity": 6355.0,
+      "ypf_equity": 6352.0,
       "trades_balance": 6454.5,
       "gap": -0.5,
       "rows": {
@@ -1999,7 +1999,7 @@
       "id": "BOT-2750347923249703",
       "ypf_state": "Active",
       "ypf_balance": 5152.5,
-      "ypf_equity": 5052.0,
+      "ypf_equity": 5049.0,
       "trades_balance": 5153.0,
       "gap": -0.5,
       "rows": {
@@ -2019,7 +2019,7 @@
       "id": "BOT-5985115771848889",
       "ypf_state": "Active",
       "ypf_balance": 5486.0,
-      "ypf_equity": 6027.0,
+      "ypf_equity": 6030.0,
       "trades_balance": 5486.5,
       "gap": -0.5,
       "rows": {
