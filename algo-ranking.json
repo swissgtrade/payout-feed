@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T21:11:14Z",
+  "updated_at": "2026-11-18T21:54:12Z",
   "period": {
     "start": null,
     "end": null
@@ -299,26 +299,26 @@
     },
     {
       "id": "BOT-6192455356057268",
-      "score": 48,
+      "score": 46,
       "points": {
-        "net_profit": 16.2,
-        "profit_factor": 2.5,
+        "net_profit": 15.4,
+        "profit_factor": 2.3,
         "max_drawdown": 5.1,
         "sharpe": 10.5,
         "positive_days": 7.9,
-        "best_day_share": 5.6
+        "best_day_share": 5.2
       },
-      "net_profit": 1621.5,
-      "return_pct": 32.43,
-      "balance": 6621.5,
+      "net_profit": 1536.5,
+      "return_pct": 30.73,
+      "balance": 6536.5,
       "max_drawdown": 2041.5,
-      "profit_factor": 1.33,
+      "profit_factor": 1.31,
       "no_losing_trade": false,
-      "sharpe": 5.27,
+      "sharpe": 5.05,
       "positive_days": 71.4,
       "best_day": 751.5,
-      "best_day_share": 46.3,
-      "trades": 34,
+      "best_day_share": 48.9,
+      "trades": 35,
       "days_traded": 7,
       "markets": [
         "MNQ"
@@ -355,7 +355,7 @@
         ],
         [
           "2026-11-18",
-          6621.5
+          6536.5
         ]
       ],
       "rank": 4
@@ -504,26 +504,26 @@
     },
     {
       "id": "BOT-1060364672318105",
-      "score": 38,
+      "score": 33,
       "points": {
-        "net_profit": 23.2,
-        "profit_factor": 1.5,
+        "net_profit": 19.7,
+        "profit_factor": 1.2,
         "max_drawdown": 0.0,
-        "sharpe": 10.3,
+        "sharpe": 8.7,
         "positive_days": 3.1,
         "best_day_share": 0.0
       },
-      "net_profit": 2315.5,
-      "return_pct": 46.31,
-      "balance": 7315.5,
+      "net_profit": 1970.5,
+      "return_pct": 39.41,
+      "balance": 6970.5,
       "max_drawdown": 2981.5,
-      "profit_factor": 1.2,
+      "profit_factor": 1.16,
       "no_losing_trade": false,
-      "sharpe": 2.06,
+      "sharpe": 1.74,
       "positive_days": 52.4,
       "best_day": 2367.0,
-      "best_day_share": 102.2,
-      "trades": 176,
+      "best_day_share": 120.1,
+      "trades": 177,
       "days_traded": 21,
       "markets": [
         "MNQ"
@@ -616,7 +616,7 @@
         ],
         [
           "2026-11-18",
-          7315.5
+          6970.5
         ]
       ],
       "rank": 7
