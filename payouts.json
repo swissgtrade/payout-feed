@@ -1,7 +1,13 @@
 {
-  "updated_at": "2026-11-18T13:11:45Z",
+  "updated_at": "2026-11-18T15:11:43Z",
   "total_amount": 271225.87,
   "payouts": [
+    {
+      "name": "LORIS",
+      "amount": "$207.44",
+      "status": "Versé",
+      "image": "certs/6ab6788eba4be79e84b298c5.png"
+    },
     {
       "name": "AYMAN",
       "amount": "$691.20",
@@ -55,12 +61,6 @@
       "amount": "$1,167.30",
       "status": "Versé",
       "image": "certs/6af39bf48c0c73bd0e171771.png"
-    },
-    {
-      "name": "CHINASA",
-      "amount": "$450.00",
-      "status": "Versé",
-      "image": "certs/6af350721e18157060be9912.png"
     }
   ]
 }
