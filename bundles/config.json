@@ -8,6 +8,17 @@
   "income_per_extra_account": 0,
   "max_accounts_created_per_run": 30,
   "bundle_name_pattern": "4\\s*accounts?",
+  "max_bundle_size": 10,
+  "fixed_size_products": {
+    "6af5a4a79675a905a7b23da2": { "name": "Black Friday Classic 50K (3+1)", "size": 4 },
+    "6af5a4cc2e499fe1b57660c9": { "name": "Black Friday Classic 100K (3+1)", "size": 4 },
+    "6af5a4eb0731b8be3dba392b": { "name": "Black Friday Classic 200K (3+1)", "size": 4 },
+    "6af5a5656c6f2a4eb1042ad3": { "name": "Black Friday Classic 300K (3+1)", "size": 4 },
+    "6af5a4263231201fb36934e6": { "name": "Black Friday Pro 50K (4+1)", "size": 5 },
+    "6af5a44ba34a2735b6dc7429": { "name": "Black Friday Pro 100K (4+1)", "size": 5 },
+    "6af5a4661152bafa4acb378c": { "name": "Black Friday Pro 200K (4+1)", "size": 5 },
+    "6af5a47e5428726788c3ac37": { "name": "Black Friday Pro 300K (4+1)", "size": 5 }
+  },
   "bundle_products": {
     "6af5934a455a0f2702192cfe": { "name": "Classic 50K", "bundle_price": 186 },
     "6af59369465f1f2d736054c7": { "name": "Classic 100K", "bundle_price": 376 },
