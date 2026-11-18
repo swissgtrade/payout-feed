@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T17:11:19Z",
+  "updated_at": "2026-11-18T18:11:13Z",
   "period": {
     "start": null,
     "end": null
@@ -49,26 +49,26 @@
   "ranking": [
     {
       "id": "BOT-9517409723160707",
-      "score": 60,
+      "score": 59,
       "points": {
         "net_profit": 25.0,
-        "profit_factor": 3.6,
+        "profit_factor": 2.8,
         "max_drawdown": 0.0,
         "sharpe": 15.0,
         "positive_days": 7.5,
-        "best_day_share": 9.0
+        "best_day_share": 8.3
       },
-      "net_profit": 12389.75,
-      "return_pct": 247.79,
-      "balance": 17389.75,
+      "net_profit": 10489.75,
+      "return_pct": 209.79,
+      "balance": 15489.75,
       "max_drawdown": 4972.5,
-      "profit_factor": 1.48,
+      "profit_factor": 1.38,
       "no_losing_trade": false,
-      "sharpe": 6.01,
+      "sharpe": 4.8,
       "positive_days": 70.0,
       "best_day": 3180.75,
-      "best_day_share": 25.7,
-      "trades": 88,
+      "best_day_share": 30.3,
+      "trades": 90,
       "days_traded": 20,
       "markets": [
         "MES"
@@ -157,7 +157,7 @@
         ],
         [
           "2026-11-18",
-          17389.75
+          15489.75
         ]
       ],
       "rank": 1
@@ -206,69 +206,6 @@
       "rank": 2
     },
     {
-      "id": "BOT-6192455356057268",
-      "score": 52,
-      "points": {
-        "net_profit": 21.3,
-        "profit_factor": 3.7,
-        "max_drawdown": 5.1,
-        "sharpe": 10.5,
-        "positive_days": 7.9,
-        "best_day_share": 4.0
-      },
-      "net_profit": 2127.5,
-      "return_pct": 42.55,
-      "balance": 7127.5,
-      "max_drawdown": 2041.5,
-      "profit_factor": 1.49,
-      "no_losing_trade": false,
-      "sharpe": 6.22,
-      "positive_days": 71.4,
-      "best_day": 1196.5,
-      "best_day_share": 56.2,
-      "trades": 33,
-      "days_traded": 7,
-      "markets": [
-        "MNQ"
-      ],
-      "start_date": "2026-11-09",
-      "curve": [
-        [
-          "2026-11-09",
-          5000.0
-        ],
-        [
-          "2026-11-10",
-          5751.5
-        ],
-        [
-          "2026-11-11",
-          6142.0
-        ],
-        [
-          "2026-11-12",
-          6612.5
-        ],
-        [
-          "2026-11-13",
-          7210.5
-        ],
-        [
-          "2026-11-16",
-          7166.0
-        ],
-        [
-          "2026-11-17",
-          5931.0
-        ],
-        [
-          "2026-11-18",
-          7127.5
-        ]
-      ],
-      "rank": 3
-    },
-    {
       "id": "BOT-2553006837027769",
       "score": 50,
       "points": {
@@ -305,7 +242,7 @@
           5040.0
         ]
       ],
-      "rank": 4
+      "rank": 3
     },
     {
       "id": "BOT-2058831586213992",
@@ -395,6 +332,69 @@
         [
           "2026-11-18",
           6581.25
+        ]
+      ],
+      "rank": 4
+    },
+    {
+      "id": "BOT-6192455356057268",
+      "score": 48,
+      "points": {
+        "net_profit": 16.2,
+        "profit_factor": 2.5,
+        "max_drawdown": 5.1,
+        "sharpe": 10.5,
+        "positive_days": 7.9,
+        "best_day_share": 5.6
+      },
+      "net_profit": 1621.5,
+      "return_pct": 32.43,
+      "balance": 6621.5,
+      "max_drawdown": 2041.5,
+      "profit_factor": 1.33,
+      "no_losing_trade": false,
+      "sharpe": 5.27,
+      "positive_days": 71.4,
+      "best_day": 751.5,
+      "best_day_share": 46.3,
+      "trades": 34,
+      "days_traded": 7,
+      "markets": [
+        "MNQ"
+      ],
+      "start_date": "2026-11-09",
+      "curve": [
+        [
+          "2026-11-09",
+          5000.0
+        ],
+        [
+          "2026-11-10",
+          5751.5
+        ],
+        [
+          "2026-11-11",
+          6142.0
+        ],
+        [
+          "2026-11-12",
+          6612.5
+        ],
+        [
+          "2026-11-13",
+          7210.5
+        ],
+        [
+          "2026-11-16",
+          7166.0
+        ],
+        [
+          "2026-11-17",
+          5931.0
+        ],
+        [
+          "2026-11-18",
+          6621.5
         ]
       ],
       "rank": 5
