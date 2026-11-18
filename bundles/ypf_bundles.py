@@ -125,19 +125,34 @@ class YpfApi:
 # --------------------------------------------------------------------------- #
 # Logique métier
 # --------------------------------------------------------------------------- #
-def is_bundle(order, cfg):
-    """Vrai si la commande est un bundle « 4 accounts »."""
+def bundle_size(order, cfg):
+    """Nombre total de comptes que la commande doit donner (0 = pas un bundle)."""
     name = order.get("productName") or ""
+    # Offres « N+M » (Black Friday) : « Black Friday Pro 50K (4+1) » -> 5 comptes
+    m = re.search(r"\(\s*(\d+)\s*\+\s*(\d+)\s*\)", name)
+    if m:
+        n = int(m.group(1)) + int(m.group(2))
+        if 2 <= n <= int(cfg.get("max_bundle_size", 10)):
+            return n
+    fixed = (cfg.get("fixed_size_products") or {}).get(order.get("productId") or "")
+    if fixed:
+        return int(fixed["size"])
+    # Bundles « 4 accounts » (variante des produits Classic / Pro)
     if re.search(cfg["bundle_name_pattern"], name, re.I):
-        return True
+        return int(cfg["bundle_size"])
     # Repli : produit connu + prix avant coupon >= prix du bundle
     rule = cfg["bundle_products"].get(order.get("productId") or "")
     if rule:
         gross = order.get("subTotal")
         if gross is None:
             gross = (order.get("amount") or 0) + (order.get("discount") or 0)
-        return float(gross) >= float(rule["bundle_price"]) - 0.5
-    return False
+        if float(gross) >= float(rule["bundle_price"]) - 0.5:
+            return int(cfg["bundle_size"])
+    return 0
+
+
+def is_bundle(order, cfg):
+    return bundle_size(order, cfg) > 0
 
 
 def process(cfg, api):
@@ -148,7 +163,6 @@ def process(cfg, api):
         log.info("start_at est dans le futur : rien à faire pour l'instant.")
         return 0
     dry = cfg["dry_run"]
-    size = int(cfg["bundle_size"])
     budget = int(cfg["max_accounts_created_per_run"])
     min_age = int(cfg.get("min_order_age_minutes", 0))
     created_total = 0
@@ -168,7 +182,8 @@ def process(cfg, api):
                 log.info("[commande %s · %s] payée il y a moins de %d min – laissée au webhook",
                          o.get("invoiceId"), o.get("productName"), min_age)
             continue
-        if not is_bundle(o, cfg):
+        size = bundle_size(o, cfg)
+        if not size:
             continue
 
         inv, uid = o.get("invoiceId"), o.get("userId")
@@ -191,6 +206,9 @@ def process(cfg, api):
         missing = size - len(linked)
         if missing <= 0:
             log.info("%s déjà complet (%d comptes)", tag, len(linked))
+            continue
+        if missing > size - 1:
+            log.error("%s nombre de comptes manquants anormal (%d) – ignorée", tag, missing)
             continue
         if missing > budget:
             log.error("%s il manque %d comptes mais la limite de sécurité restante est %d – arrêt", tag, missing, budget)
