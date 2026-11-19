@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T11:11:14Z",
+  "updated_at": "2026-11-19T12:11:15Z",
   "period": {
     "start": null,
     "end": null
@@ -45,7 +45,7 @@
     }
   ],
   "accounts_tracked": 34,
-  "accounts_in_gain": 9,
+  "accounts_in_gain": 10,
   "ranking": [
     {
       "id": "BOT-6192455356057268",
@@ -159,26 +159,26 @@
     },
     {
       "id": "BOT-9517409723160707",
-      "score": 51,
+      "score": 52,
       "points": {
         "net_profit": 25.0,
         "profit_factor": 1.6,
         "max_drawdown": 0.0,
-        "sharpe": 12.7,
+        "sharpe": 13.3,
         "positive_days": 6.7,
-        "best_day_share": 5.4
+        "best_day_share": 5.7
       },
-      "net_profit": 6659.75,
-      "return_pct": 133.19,
-      "balance": 11659.75,
+      "net_profit": 6974.75,
+      "return_pct": 139.5,
+      "balance": 11974.75,
       "max_drawdown": 5895.0,
-      "profit_factor": 1.21,
+      "profit_factor": 1.22,
       "no_losing_trade": false,
-      "sharpe": 2.54,
+      "sharpe": 2.67,
       "positive_days": 66.7,
       "best_day": 3180.75,
-      "best_day_share": 47.8,
-      "trades": 93,
+      "best_day_share": 45.6,
+      "trades": 94,
       "days_traded": 21,
       "markets": [
         "MES"
@@ -271,10 +271,49 @@
         ],
         [
           "2026-11-19",
-          11659.75
+          11974.75
         ]
       ],
       "rank": 3
+    },
+    {
+      "id": "BOT-2159721934000208",
+      "score": 52,
+      "points": {
+        "net_profit": 1.9,
+        "profit_factor": 15.0,
+        "max_drawdown": 25.0,
+        "sharpe": 0.0,
+        "positive_days": 10.0,
+        "best_day_share": 0.0
+      },
+      "net_profit": 188.0,
+      "return_pct": 3.76,
+      "balance": 5188.0,
+      "max_drawdown": 0.0,
+      "profit_factor": null,
+      "no_losing_trade": true,
+      "sharpe": null,
+      "positive_days": 100.0,
+      "best_day": 188.0,
+      "best_day_share": 100.0,
+      "trades": 1,
+      "days_traded": 1,
+      "markets": [
+        "MNQ"
+      ],
+      "start_date": "2026-11-18",
+      "curve": [
+        [
+          "2026-11-18",
+          5000.0
+        ],
+        [
+          "2026-11-19",
+          5188.0
+        ]
+      ],
+      "rank": 4
     },
     {
       "id": "BOT-5985115771848889",
@@ -350,7 +389,7 @@
           6207.0
         ]
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "id": "BOT-4579867662555733",
@@ -420,7 +459,7 @@
           5521.0
         ]
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "id": "BOT-1060364672318105",
@@ -543,7 +582,7 @@
           7634.5
         ]
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "id": "BOT-8517304211838272",
@@ -629,7 +668,7 @@
           5304.5
         ]
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "id": "BOT-6323041262042381",
@@ -676,7 +715,7 @@
           6768.0
         ]
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "id": "BOT-2058831586213992",
@@ -772,7 +811,7 @@
           5958.0
         ]
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
