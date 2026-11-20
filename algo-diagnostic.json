@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T21:11:14Z",
+  "updated_at": "2026-11-20T22:11:13Z",
   "history_fields": [
     "accountId",
     "closePrice",
@@ -555,34 +555,23 @@
     {
       "id": "BOT-9525503092060538",
       "ypf_state": "Active",
-      "ypf_balance": 4578.86,
-      "ypf_equity": 4465.11,
-      "trades_balance": 6495.86,
-      "gap": -1917.0,
+      "ypf_balance": 4478.36,
+      "ypf_equity": 4478.36,
+      "trades_balance": 6394.86,
+      "gap": -1916.5,
       "rows": {
         "ClosedNormal/Buy": [
-          345,
-          -1142.14
+          346,
+          -1243.14
         ],
         "ClosedNormal/Sell": [
           366,
           2638.0
         ]
       },
-      "closed_rows": 711,
-      "positions": 708,
+      "closed_rows": 712,
+      "positions": 709,
       "recent": [
-        {
-          "openTime": "2026-11-19T20:32:21.728Z",
-          "closeTime": "2026-11-19T20:32:31.115Z",
-          "timestamp": "2026-11-19T20:32:31.138174Z",
-          "state": "ClosedNormal",
-          "command": "Buy",
-          "tradeSymbol": "MNQ.CME",
-          "volume": 2,
-          "profit": -81,
-          "commission": 2
-        },
         {
           "openTime": "2026-11-19T20:10:00.691Z",
           "closeTime": "2026-11-19T20:46:14.085Z",
@@ -790,6 +779,17 @@
           "tradeSymbol": "MYM.CBOT",
           "volume": 1,
           "profit": 249.5,
+          "commission": 1
+        },
+        {
+          "openTime": "2026-11-20T06:00:01.101Z",
+          "closeTime": "2026-11-20T21:56:00.02Z",
+          "timestamp": "2026-11-20T21:56:00.036311Z",
+          "state": "ClosedNormal",
+          "command": "Buy",
+          "tradeSymbol": "MHG.COMEX",
+          "volume": 1,
+          "profit": -100.00000000000009,
           "commission": 1
         }
       ],
@@ -2484,22 +2484,22 @@
     {
       "id": "BOT-2553006837027769",
       "ypf_state": "Active",
-      "ypf_balance": 4855.0,
-      "ypf_equity": 4855.0,
-      "trades_balance": 4855.0,
+      "ypf_balance": 4995.0,
+      "ypf_equity": 4995.0,
+      "trades_balance": 4995.0,
       "gap": 0.0,
       "rows": {
         "ClosedNormal/Buy": [
-          5,
-          143.75
+          6,
+          176.25
         ],
         "ClosedNormal/Sell": [
-          8,
-          -288.75
+          9,
+          -181.25
         ]
       },
-      "closed_rows": 13,
-      "positions": 13,
+      "closed_rows": 15,
+      "positions": 15,
       "excluded": "solde trades"
     },
     {
