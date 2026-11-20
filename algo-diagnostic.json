@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T19:11:15Z",
+  "updated_at": "2026-11-20T20:09:16Z",
   "history_fields": [
     "accountId",
     "closePrice",
@@ -556,7 +556,7 @@
       "id": "BOT-9525503092060538",
       "ypf_state": "Active",
       "ypf_balance": 4578.86,
-      "ypf_equity": 4537.61,
+      "ypf_equity": 4443.86,
       "trades_balance": 6495.86,
       "gap": -1917.0,
       "rows": {
@@ -2222,9 +2222,9 @@
     {
       "id": "BOT-1060364672318105",
       "ypf_state": "Active",
-      "ypf_balance": 8647.0,
-      "ypf_equity": 8770.0,
-      "trades_balance": 8638.5,
+      "ypf_balance": 8979.0,
+      "ypf_equity": 8865.0,
+      "trades_balance": 8970.5,
       "gap": 8.5,
       "rows": {
         "ClosedNormal/Buy": [
@@ -2232,24 +2232,13 @@
           -2003.5
         ],
         "ClosedNormal/Sell": [
-          121,
-          5642.0
+          122,
+          5974.0
         ]
       },
-      "closed_rows": 263,
-      "positions": 191,
+      "closed_rows": 264,
+      "positions": 192,
       "recent": [
-        {
-          "openTime": "2026-11-18T02:17:44.49Z",
-          "closeTime": "2026-11-18T04:20:26.891Z",
-          "timestamp": "2026-11-18T04:20:26.900841Z",
-          "state": "ClosedNormal",
-          "command": "Buy",
-          "tradeSymbol": "MNQ.CME",
-          "volume": 1,
-          "profit": 333,
-          "commission": 1
-        },
         {
           "openTime": "2026-11-18T05:00:00.315Z",
           "closeTime": "2026-11-18T07:49:59.49Z",
@@ -2458,15 +2447,26 @@
           "volume": 1,
           "profit": 333,
           "commission": 1
+        },
+        {
+          "openTime": "2026-11-20T17:30:48.027Z",
+          "closeTime": "2026-11-20T19:17:54.839Z",
+          "timestamp": "2026-11-20T19:17:54.862838Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "MNQ.CME",
+          "volume": 1,
+          "profit": 333,
+          "commission": 1
         }
       ]
     },
     {
       "id": "BOT-6192455356057268",
       "ypf_state": "Active",
-      "ypf_balance": 7429.5,
-      "ypf_equity": 7552.5,
-      "trades_balance": 7430.0,
+      "ypf_balance": 7737.0,
+      "ypf_equity": 7623.0,
+      "trades_balance": 7737.5,
       "gap": -0.5,
       "rows": {
         "ClosedNormal/Buy": [
@@ -2474,19 +2474,19 @@
           -1508.0
         ],
         "ClosedNormal/Sell": [
-          28,
-          3938.0
+          29,
+          4245.5
         ]
       },
-      "closed_rows": 48,
-      "positions": 48
+      "closed_rows": 49,
+      "positions": 49
     },
     {
       "id": "BOT-2750347923249703",
       "ypf_state": "Active",
-      "ypf_balance": 2134.5,
-      "ypf_equity": 2359.5,
-      "trades_balance": 2135.0,
+      "ypf_balance": 2514.5,
+      "ypf_equity": 2400.5,
+      "trades_balance": 2515.0,
       "gap": -0.5,
       "rows": {
         "ClosedNormal/Buy": [
@@ -2494,19 +2494,19 @@
           -4963.5
         ],
         "ClosedNormal/Sell": [
-          24,
-          2098.5
+          25,
+          2478.5
         ]
       },
-      "closed_rows": 54,
-      "positions": 54,
+      "closed_rows": 55,
+      "positions": 55,
       "excluded": "solde trades"
     },
     {
       "id": "BOT-4579867662555733",
       "ypf_state": "Active",
       "ypf_balance": 5888.5,
-      "ypf_equity": 6845.0,
+      "ypf_equity": 7425.5,
       "trades_balance": 5889.0,
       "gap": -0.5,
       "rows": {
@@ -2711,22 +2711,22 @@
     {
       "id": "BOT-4632633129017391",
       "ypf_state": "Active",
-      "ypf_balance": 4472.0,
-      "ypf_equity": 4472.0,
-      "trades_balance": 4472.0,
+      "ypf_balance": 4184.0,
+      "ypf_equity": 4184.0,
+      "trades_balance": 4184.0,
       "gap": -0.0,
       "rows": {
         "ClosedNormal/Buy": [
-          4,
-          -160.0
+          5,
+          -448.0
         ],
         "ClosedNormal/Sell": [
           49,
           -368.0
         ]
       },
-      "closed_rows": 53,
-      "positions": 27,
+      "closed_rows": 54,
+      "positions": 28,
       "excluded": "solde trades"
     },
     {
