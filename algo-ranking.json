@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T14:11:15Z",
+  "updated_at": "2026-11-23T15:11:17Z",
   "period": {
     "start": null,
     "end": null
@@ -45,7 +45,7 @@
     }
   ],
   "accounts_tracked": 37,
-  "accounts_in_gain": 9,
+  "accounts_in_gain": 10,
   "ranking": [
     {
       "id": "BOT-4579867662555733",
@@ -202,26 +202,26 @@
     },
     {
       "id": "BOT-9517409723160707",
-      "score": 57,
+      "score": 60,
       "points": {
         "net_profit": 25.0,
-        "profit_factor": 2.4,
+        "profit_factor": 3.6,
         "max_drawdown": 0.0,
         "sharpe": 15.0,
-        "positive_days": 7.4,
-        "best_day_share": 7.4
+        "positive_days": 8.5,
+        "best_day_share": 8.2
       },
-      "net_profit": 12269.75,
-      "return_pct": 245.4,
-      "balance": 17269.75,
+      "net_profit": 18472.25,
+      "return_pct": 369.44,
+      "balance": 23472.25,
       "max_drawdown": 6127.5,
-      "profit_factor": 1.32,
+      "profit_factor": 1.48,
       "no_losing_trade": false,
-      "sharpe": 4.13,
-      "positive_days": 69.6,
-      "best_day": 4390.0,
-      "best_day_share": 35.8,
-      "trades": 107,
+      "sharpe": 5.56,
+      "positive_days": 73.9,
+      "best_day": 5657.5,
+      "best_day_share": 30.6,
+      "trades": 108,
       "days_traded": 23,
       "markets": [
         "MES"
@@ -322,7 +322,7 @@
         ],
         [
           "2026-11-23",
-          17269.75
+          23472.25
         ]
       ],
       "rank": 3
@@ -804,6 +804,49 @@
         ]
       ],
       "rank": 9
+    },
+    {
+      "id": "BOT-3402686058146175",
+      "score": 23,
+      "points": {
+        "net_profit": 0.0,
+        "profit_factor": 0.0,
+        "max_drawdown": 20.3,
+        "sharpe": 0.0,
+        "positive_days": 2.5,
+        "best_day_share": 0.0
+      },
+      "net_profit": 1.0,
+      "return_pct": 0.02,
+      "balance": 5001.0,
+      "max_drawdown": 677.0,
+      "profit_factor": 1.0,
+      "no_losing_trade": false,
+      "sharpe": 0.01,
+      "positive_days": 50.0,
+      "best_day": 614.0,
+      "best_day_share": 61400.0,
+      "trades": 6,
+      "days_traded": 2,
+      "markets": [
+        "NQ"
+      ],
+      "start_date": "2026-10-19",
+      "curve": [
+        [
+          "2026-10-19",
+          5000.0
+        ],
+        [
+          "2026-10-20",
+          4387.0
+        ],
+        [
+          "2026-11-23",
+          5001.0
+        ]
+      ],
+      "rank": 10
     }
   ]
 }
