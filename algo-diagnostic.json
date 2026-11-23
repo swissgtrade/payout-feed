@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T22:11:12Z",
+  "updated_at": "2026-11-23T23:11:14Z",
   "history_fields": [
     "accountId",
     "closePrice",
@@ -555,9 +555,9 @@
     {
       "id": "BOT-9525503092060538",
       "ypf_state": "Active",
-      "ypf_balance": 3590.86,
-      "ypf_equity": 3590.86,
-      "trades_balance": 5507.36,
+      "ypf_balance": 3634.86,
+      "ypf_equity": 3634.86,
+      "trades_balance": 5551.36,
       "gap": -1916.5,
       "rows": {
         "ClosedNormal/Buy": [
@@ -565,24 +565,13 @@
           -1974.14
         ],
         "ClosedNormal/Sell": [
-          386,
-          2481.5
+          387,
+          2525.5
         ]
       },
-      "closed_rows": 754,
-      "positions": 751,
+      "closed_rows": 755,
+      "positions": 752,
       "recent": [
-        {
-          "openTime": "2026-11-23T16:40:00.24Z",
-          "closeTime": "2026-11-23T16:57:50.983Z",
-          "timestamp": "2026-11-23T16:57:50.997788Z",
-          "state": "ClosedNormal",
-          "command": "Buy",
-          "tradeSymbol": "MYM.CBOT",
-          "volume": 1,
-          "profit": 78,
-          "commission": 1
-        },
         {
           "openTime": "2026-11-23T17:35:00.844Z",
           "closeTime": "2026-11-23T17:43:36.528Z",
@@ -791,6 +780,17 @@
           "volume": 2,
           "profit": -67.50000000000256,
           "commission": 2
+        },
+        {
+          "openTime": "2026-11-23T23:00:00.307Z",
+          "closeTime": "2026-11-23T23:00:03.555Z",
+          "timestamp": "2026-11-23T23:00:03.613535Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "MNQ.CME",
+          "volume": 1,
+          "profit": 45,
+          "commission": 1
         }
       ],
       "excluded": "solde YPF"
@@ -2464,10 +2464,10 @@
     {
       "id": "BOT-3606485595714868",
       "ypf_state": "Active",
-      "ypf_balance": 3902.0,
-      "ypf_equity": 3902.0,
+      "ypf_balance": 3901.5,
+      "ypf_equity": 3748.0,
       "trades_balance": 3902.0,
-      "gap": 0.0,
+      "gap": -0.5,
       "rows": {
         "ClosedNormal/Buy": [
           2,
