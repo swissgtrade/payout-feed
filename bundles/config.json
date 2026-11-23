@@ -3,7 +3,7 @@
   "dry_run": true,
   "start_at": "2026-11-12T00:00:00Z",
   "lookback_minutes": 10080,
-  "min_order_age_minutes": 15,
+  "min_order_age_minutes": 30,
   "bundle_size": 4,
   "income_per_extra_account": 0,
   "max_accounts_created_per_run": 30,
