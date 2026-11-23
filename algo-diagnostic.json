@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T07:11:23Z",
+  "updated_at": "2026-11-23T08:11:15Z",
   "history_fields": [
     "accountId",
     "closePrice",
@@ -2223,7 +2223,7 @@
       "id": "BOT-1060364672318105",
       "ypf_state": "Active",
       "ypf_balance": 9009.0,
-      "ypf_equity": 9111.0,
+      "ypf_equity": 8913.0,
       "trades_balance": 9000.5,
       "gap": 8.5,
       "rows": {
@@ -2465,7 +2465,7 @@
       "id": "BOT-9517409723160707",
       "ypf_state": "Active",
       "ypf_balance": 17809.75,
-      "ypf_equity": 18009.75,
+      "ypf_equity": 16997.25,
       "trades_balance": 17814.75,
       "gap": -5.0,
       "rows": {
@@ -2707,7 +2707,7 @@
       "id": "BOT-6192455356057268",
       "ypf_state": "Active",
       "ypf_balance": 7836.5,
-      "ypf_equity": 7867.5,
+      "ypf_equity": 7669.5,
       "trades_balance": 7837.0,
       "gap": -0.5,
       "rows": {
@@ -2727,7 +2727,7 @@
       "id": "BOT-2750347923249703",
       "ypf_state": "Active",
       "ypf_balance": 2717.0,
-      "ypf_equity": 2651.0,
+      "ypf_equity": 2849.0,
       "trades_balance": 2717.5,
       "gap": -0.5,
       "rows": {
@@ -2742,6 +2742,30 @@
       },
       "closed_rows": 58,
       "positions": 58,
+      "excluded": "solde trades"
+    },
+    {
+      "id": "BOT-4547403959937930",
+      "ypf_state": "Active",
+      "ypf_balance": 5000.0,
+      "ypf_equity": 5000.0,
+      "trades_balance": 5000.0,
+      "gap": 0.0,
+      "rows": {},
+      "closed_rows": 0,
+      "positions": 0,
+      "excluded": "solde trades"
+    },
+    {
+      "id": "BOT-7218972653210030",
+      "ypf_state": "Active",
+      "ypf_balance": 5000.0,
+      "ypf_equity": 5000.0,
+      "trades_balance": 5000.0,
+      "gap": 0.0,
+      "rows": {},
+      "closed_rows": 0,
+      "positions": 0,
       "excluded": "solde trades"
     },
     {
@@ -2911,22 +2935,22 @@
     {
       "id": "BOT-9093600857263133",
       "ypf_state": "Active",
-      "ypf_balance": 3709.0,
-      "ypf_equity": 3709.0,
-      "trades_balance": 3709.0,
+      "ypf_balance": 3877.0,
+      "ypf_equity": 3877.0,
+      "trades_balance": 3877.0,
       "gap": 0.0,
       "rows": {
         "ClosedNormal/Buy": [
-          511,
-          -276.5
+          523,
+          -108.5
         ],
         "ClosedNormal/Sell": [
           427,
           -1014.5
         ]
       },
-      "closed_rows": 938,
-      "positions": 163,
+      "closed_rows": 950,
+      "positions": 165,
       "excluded": "solde trades"
     },
     {
