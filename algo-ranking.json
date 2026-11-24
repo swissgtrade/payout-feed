@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T23:11:14Z",
+  "updated_at": "2026-11-24T00:11:14Z",
   "period": {
     "start": null,
     "end": null
@@ -45,7 +45,7 @@
     }
   ],
   "accounts_tracked": 37,
-  "accounts_in_gain": 12,
+  "accounts_in_gain": 11,
   "ranking": [
     {
       "id": "BOT-4579867662555733",
@@ -754,32 +754,33 @@
       "rank": 9
     },
     {
-      "id": "BOT-3402686058146175",
-      "score": 23,
+      "id": "BOT-2058831586213992",
+      "score": 18,
       "points": {
-        "net_profit": 0.0,
-        "profit_factor": 0.0,
-        "max_drawdown": 20.3,
-        "sharpe": 0.0,
-        "positive_days": 2.5,
+        "net_profit": 7.1,
+        "profit_factor": 0.7,
+        "max_drawdown": 3.2,
+        "sharpe": 5.3,
+        "positive_days": 1.8,
         "best_day_share": 0.0
       },
-      "net_profit": 1.0,
-      "return_pct": 0.02,
-      "balance": 5001.0,
-      "max_drawdown": 677.0,
-      "profit_factor": 1.0,
+      "net_profit": 707.75,
+      "return_pct": 14.15,
+      "balance": 5707.75,
+      "max_drawdown": 2216.0,
+      "profit_factor": 1.09,
       "no_losing_trade": false,
-      "sharpe": 0.01,
-      "positive_days": 50.0,
-      "best_day": 614.0,
-      "best_day_share": 61400.0,
-      "trades": 6,
-      "days_traded": 2,
+      "sharpe": 1.06,
+      "positive_days": 47.1,
+      "best_day": 1739.25,
+      "best_day_share": 245.7,
+      "trades": 94,
+      "days_traded": 17,
       "markets": [
-        "NQ"
+        "ES",
+        "MES"
       ],
-      "start_date": "2026-10-19",
+      "start_date": "2026-10-20",
       "curve": [
         [
           "2026-10-19",
@@ -787,11 +788,71 @@
         ],
         [
           "2026-10-20",
-          4387.0
+          5021.0
+        ],
+        [
+          "2026-10-21",
+          4913.0
+        ],
+        [
+          "2026-10-22",
+          5572.0
+        ],
+        [
+          "2026-11-02",
+          5468.0
+        ],
+        [
+          "2026-11-03",
+          5772.5
+        ],
+        [
+          "2026-11-05",
+          5214.5
+        ],
+        [
+          "2026-11-09",
+          6953.75
+        ],
+        [
+          "2026-11-10",
+          6986.0
+        ],
+        [
+          "2026-11-11",
+          7256.75
+        ],
+        [
+          "2026-11-12",
+          6826.25
+        ],
+        [
+          "2026-11-13",
+          6930.25
+        ],
+        [
+          "2026-11-16",
+          7838.75
+        ],
+        [
+          "2026-11-17",
+          7188.25
+        ],
+        [
+          "2026-11-18",
+          6581.25
+        ],
+        [
+          "2026-11-19",
+          5958.0
+        ],
+        [
+          "2026-11-20",
+          5874.75
         ],
         [
           "2026-11-23",
-          5001.0
+          5707.75
         ]
       ],
       "rank": 10
