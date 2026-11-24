@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T05:11:18Z",
+  "updated_at": "2026-11-24T06:11:12Z",
   "period": {
     "start": null,
     "end": null
@@ -554,26 +554,26 @@
     },
     {
       "id": "BOT-8517304211838272",
-      "score": 48,
+      "score": 42,
       "points": {
-        "net_profit": 5.0,
-        "profit_factor": 0.9,
+        "net_profit": 4.1,
+        "profit_factor": 0.8,
         "max_drawdown": 19.8,
-        "sharpe": 15.0,
-        "positive_days": 5.0,
-        "best_day_share": 2.7
+        "sharpe": 13.2,
+        "positive_days": 3.3,
+        "best_day_share": 0.5
       },
-      "net_profit": 496.5,
-      "return_pct": 9.93,
-      "balance": 5496.5,
+      "net_profit": 414.5,
+      "return_pct": 8.29,
+      "balance": 5414.5,
       "max_drawdown": 718.0,
-      "profit_factor": 1.12,
+      "profit_factor": 1.1,
       "no_losing_trade": false,
-      "sharpe": 3.2,
-      "positive_days": 60.0,
+      "sharpe": 2.64,
+      "positive_days": 53.3,
       "best_day": 318.0,
-      "best_day_share": 64.0,
-      "trades": 199,
+      "best_day_share": 76.7,
+      "trades": 200,
       "days_traded": 15,
       "markets": [
         "MCL",
@@ -645,7 +645,7 @@
         ],
         [
           "2026-11-24",
-          5496.5
+          5414.5
         ]
       ],
       "rank": 7
