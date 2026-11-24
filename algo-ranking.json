@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T06:11:12Z",
+  "updated_at": "2026-11-24T08:11:27Z",
   "period": {
     "start": null,
     "end": null
@@ -210,27 +210,27 @@
     },
     {
       "id": "BOT-9517409723160707",
-      "score": 60,
+      "score": 61,
       "points": {
         "net_profit": 25.0,
         "profit_factor": 3.0,
         "max_drawdown": 0.0,
         "sharpe": 15.0,
-        "positive_days": 8.5,
+        "positive_days": 8.8,
         "best_day_share": 8.8
       },
-      "net_profit": 16077.25,
-      "return_pct": 321.55,
-      "balance": 21077.25,
+      "net_profit": 16204.75,
+      "return_pct": 324.1,
+      "balance": 21204.75,
       "max_drawdown": 6127.5,
       "profit_factor": 1.4,
       "no_losing_trade": false,
-      "sharpe": 5.26,
-      "positive_days": 73.9,
+      "sharpe": 5.18,
+      "positive_days": 75.0,
       "best_day": 4390.0,
-      "best_day_share": 27.3,
-      "trades": 110,
-      "days_traded": 23,
+      "best_day_share": 27.1,
+      "trades": 111,
+      "days_traded": 24,
       "markets": [
         "MES"
       ],
@@ -331,6 +331,10 @@
         [
           "2026-11-23",
           21077.25
+        ],
+        [
+          "2026-11-24",
+          21204.75
         ]
       ],
       "rank": 3
@@ -554,26 +558,26 @@
     },
     {
       "id": "BOT-8517304211838272",
-      "score": 42,
+      "score": 33,
       "points": {
-        "net_profit": 4.1,
-        "profit_factor": 0.8,
+        "net_profit": 2.3,
+        "profit_factor": 0.4,
         "max_drawdown": 19.8,
-        "sharpe": 13.2,
+        "sharpe": 6.9,
         "positive_days": 3.3,
-        "best_day_share": 0.5
+        "best_day_share": 0.0
       },
-      "net_profit": 414.5,
-      "return_pct": 8.29,
-      "balance": 5414.5,
+      "net_profit": 232.5,
+      "return_pct": 4.65,
+      "balance": 5232.5,
       "max_drawdown": 718.0,
-      "profit_factor": 1.1,
+      "profit_factor": 1.05,
       "no_losing_trade": false,
-      "sharpe": 2.64,
+      "sharpe": 1.37,
       "positive_days": 53.3,
       "best_day": 318.0,
-      "best_day_share": 76.7,
-      "trades": 200,
+      "best_day_share": 136.8,
+      "trades": 206,
       "days_traded": 15,
       "markets": [
         "MCL",
@@ -645,7 +649,7 @@
         ],
         [
           "2026-11-24",
-          5414.5
+          5232.5
         ]
       ],
       "rank": 7
