@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T11:11:12Z",
+  "updated_at": "2026-11-25T12:11:13Z",
   "history_fields": [
     "accountId",
     "closePrice",
@@ -1696,56 +1696,23 @@
     {
       "id": "BOT-8517304211838272",
       "ypf_state": "Active",
-      "ypf_balance": 5480.0,
-      "ypf_equity": 5480.0,
-      "trades_balance": 5524.0,
+      "ypf_balance": 5512.5,
+      "ypf_equity": 5512.5,
+      "trades_balance": 5556.5,
       "gap": -44.0,
       "rows": {
         "ClosedNormal/Buy": [
-          251,
-          702.0
+          254,
+          734.5
         ],
         "ClosedNormal/Sell": [
           256,
           -178.0
         ]
       },
-      "closed_rows": 507,
-      "positions": 216,
+      "closed_rows": 510,
+      "positions": 219,
       "recent": [
-        {
-          "openTime": "2026-11-24T06:30:00.143Z",
-          "closeTime": "2026-11-24T06:33:23.935Z",
-          "timestamp": "2026-11-24T06:33:23.961875Z",
-          "state": "ClosedNormal",
-          "command": "Buy",
-          "tradeSymbol": "MYM.CBOT",
-          "volume": 1,
-          "profit": 20,
-          "commission": 1
-        },
-        {
-          "openTime": "2026-11-24T06:30:00.143Z",
-          "closeTime": "2026-11-24T06:33:23.936Z",
-          "timestamp": "2026-11-24T06:33:23.961881Z",
-          "state": "ClosedNormal",
-          "command": "Buy",
-          "tradeSymbol": "MYM.CBOT",
-          "volume": 1,
-          "profit": 20,
-          "commission": 1
-        },
-        {
-          "openTime": "2026-11-24T06:30:00.143Z",
-          "closeTime": "2026-11-24T06:33:23.936Z",
-          "timestamp": "2026-11-24T06:33:23.961883Z",
-          "state": "ClosedNormal",
-          "command": "Buy",
-          "tradeSymbol": "MYM.CBOT",
-          "volume": 1,
-          "profit": 20,
-          "commission": 1
-        },
         {
           "openTime": "2026-11-24T06:30:00.143Z",
           "closeTime": "2026-11-24T06:33:23.936Z",
@@ -1932,6 +1899,39 @@
           "volume": 1,
           "profit": 112.5,
           "commission": 1
+        },
+        {
+          "openTime": "2026-11-25T11:31:16.252Z",
+          "closeTime": "2026-11-25T11:34:03.444Z",
+          "timestamp": "2026-11-25T11:34:03.501293Z",
+          "state": "ClosedNormal",
+          "command": "Buy",
+          "tradeSymbol": "MYM.CBOT",
+          "volume": 1,
+          "profit": 11.75,
+          "commission": 1
+        },
+        {
+          "openTime": "2026-11-25T11:26:45.895Z",
+          "closeTime": "2026-11-25T11:34:03.444Z",
+          "timestamp": "2026-11-25T11:34:03.501309Z",
+          "state": "ClosedNormal",
+          "command": "Buy",
+          "tradeSymbol": "MYM.CBOT",
+          "volume": 1,
+          "profit": 11.75,
+          "commission": 1
+        },
+        {
+          "openTime": "2026-11-25T11:37:29.177Z",
+          "closeTime": "2026-11-25T11:39:58.582Z",
+          "timestamp": "2026-11-25T11:39:58.602057Z",
+          "state": "ClosedNormal",
+          "command": "Buy",
+          "tradeSymbol": "MYM.CBOT",
+          "volume": 1,
+          "profit": 12,
+          "commission": 1
         }
       ]
     },
@@ -1939,7 +1939,7 @@
       "id": "BOT-1060364672318105",
       "ypf_state": "Active",
       "ypf_balance": 10624.5,
-      "ypf_equity": 10665.5,
+      "ypf_equity": 10407.5,
       "trades_balance": 10616.0,
       "gap": 8.5,
       "rows": {
@@ -2181,7 +2181,7 @@
       "id": "BOT-9517409723160707",
       "ypf_state": "Active",
       "ypf_balance": 21244.75,
-      "ypf_equity": 25132.25,
+      "ypf_equity": 26719.75,
       "trades_balance": 21249.75,
       "gap": -5.0,
       "rows": {
@@ -2420,44 +2420,266 @@
       ]
     },
     {
+      "id": "BOT-2058831586213992",
+      "ypf_state": "Active",
+      "ypf_balance": 6500.25,
+      "ypf_equity": 6775.25,
+      "trades_balance": 6502.75,
+      "gap": -2.5,
+      "rows": {
+        "ClosedNormal/Buy": [
+          47,
+          50.75
+        ],
+        "ClosedNormal/Sell": [
+          55,
+          1452.0
+        ]
+      },
+      "closed_rows": 102,
+      "positions": 102,
+      "recent": [
+        {
+          "openTime": "2026-11-18T03:25:02.817Z",
+          "closeTime": "2026-11-18T03:37:57.18Z",
+          "timestamp": "2026-11-18T03:37:57.198697Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "MES.CME",
+          "volume": 2,
+          "profit": -105,
+          "commission": 2
+        },
+        {
+          "openTime": "2026-11-19T01:00:00.106Z",
+          "closeTime": "2026-11-19T01:01:38.246Z",
+          "timestamp": "2026-11-19T01:01:38.262028Z",
+          "state": "ClosedNormal",
+          "command": "Buy",
+          "tradeSymbol": "MES.CME",
+          "volume": 10,
+          "profit": -200,
+          "commission": 10
+        },
+        {
+          "openTime": "2026-11-19T01:15:00.38Z",
+          "closeTime": "2026-11-19T01:19:53.281Z",
+          "timestamp": "2026-11-19T01:19:53.290679Z",
+          "state": "ClosedNormal",
+          "command": "Buy",
+          "tradeSymbol": "MES.CME",
+          "volume": 10,
+          "profit": -225,
+          "commission": 10
+        },
+        {
+          "openTime": "2026-11-19T01:55:00.312Z",
+          "closeTime": "2026-11-19T01:56:37.069Z",
+          "timestamp": "2026-11-19T01:56:37.076035Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "MES.CME",
+          "volume": 6,
+          "profit": -157.5,
+          "commission": 6
+        },
+        {
+          "openTime": "2026-11-19T04:35:00.123Z",
+          "closeTime": "2026-11-19T04:44:05.341Z",
+          "timestamp": "2026-11-19T04:44:05.360339Z",
+          "state": "ClosedNormal",
+          "command": "Buy",
+          "tradeSymbol": "MES.CME",
+          "volume": 1,
+          "profit": -13.75,
+          "commission": 1
+        },
+        {
+          "openTime": "2026-11-20T05:00:00.081Z",
+          "closeTime": "2026-11-20T05:18:47.214Z",
+          "timestamp": "2026-11-20T05:18:47.221759Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "MES.CME",
+          "volume": 5,
+          "profit": 106.25,
+          "commission": 5
+        },
+        {
+          "openTime": "2026-11-20T10:20:00.224Z",
+          "closeTime": "2026-11-20T10:22:43.873Z",
+          "timestamp": "2026-11-20T10:22:43.888239Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "MES.CME",
+          "volume": 10,
+          "profit": -212.5,
+          "commission": 10
+        },
+        {
+          "openTime": "2026-11-20T12:25:00.494Z",
+          "closeTime": "2026-11-20T12:35:07.592Z",
+          "timestamp": "2026-11-20T12:35:07.619292Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "MES.CME",
+          "volume": 8,
+          "profit": 40,
+          "commission": 8
+        },
+        {
+          "openTime": "2026-11-20T13:05:00.11Z",
+          "closeTime": "2026-11-20T13:16:47.67Z",
+          "timestamp": "2026-11-20T13:16:47.688795Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "MES.CME",
+          "volume": 4,
+          "profit": 10,
+          "commission": 4
+        },
+        {
+          "openTime": "2026-11-23T04:20:00.127Z",
+          "closeTime": "2026-11-23T04:30:59.721Z",
+          "timestamp": "2026-11-23T04:30:59.743321Z",
+          "state": "ClosedNormal",
+          "command": "Buy",
+          "tradeSymbol": "MES.CME",
+          "volume": 7,
+          "profit": -245,
+          "commission": 7
+        },
+        {
+          "openTime": "2026-11-23T11:30:00.145Z",
+          "closeTime": "2026-11-23T11:40:28.944Z",
+          "timestamp": "2026-11-23T11:40:28.970838Z",
+          "state": "ClosedNormal",
+          "command": "Buy",
+          "tradeSymbol": "MES.CME",
+          "volume": 10,
+          "profit": 337.5,
+          "commission": 10
+        },
+        {
+          "openTime": "2026-11-23T20:45:00.1Z",
+          "closeTime": "2026-11-23T20:50:00.399Z",
+          "timestamp": "2026-11-23T20:50:00.411952Z",
+          "state": "ClosedNormal",
+          "command": "Buy",
+          "tradeSymbol": "MES.CME",
+          "volume": 5,
+          "profit": -237.5,
+          "commission": 5
+        },
+        {
+          "openTime": "2026-11-24T03:50:00.12Z",
+          "closeTime": "2026-11-24T04:00:00.555Z",
+          "timestamp": "2026-11-24T04:00:00.613856Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "MES.CME",
+          "volume": 7,
+          "profit": -175,
+          "commission": 7
+        },
+        {
+          "openTime": "2026-11-24T09:25:00.236Z",
+          "closeTime": "2026-11-24T09:33:35.867Z",
+          "timestamp": "2026-11-24T09:33:35.923417Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "MES.CME",
+          "volume": 4,
+          "profit": -210,
+          "commission": 4
+        },
+        {
+          "openTime": "2026-11-24T10:25:00.189Z",
+          "closeTime": "2026-11-24T10:40:46.985Z",
+          "timestamp": "2026-11-24T10:40:47.000818Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "MES.CME",
+          "volume": 5,
+          "profit": 406.25,
+          "commission": 5
+        },
+        {
+          "openTime": "2026-11-24T12:00:00.145Z",
+          "closeTime": "2026-11-24T12:01:54.228Z",
+          "timestamp": "2026-11-24T12:01:54.253142Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "MES.CME",
+          "volume": 9,
+          "profit": 416.25,
+          "commission": 9
+        },
+        {
+          "openTime": "2026-11-24T20:20:00.126Z",
+          "closeTime": "2026-11-24T20:30:29.186Z",
+          "timestamp": "2026-11-24T20:30:29.202663Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "MES.CME",
+          "volume": 4,
+          "profit": 10,
+          "commission": 4
+        },
+        {
+          "openTime": "2026-11-25T03:25:00.126Z",
+          "closeTime": "2026-11-25T03:30:03.591Z",
+          "timestamp": "2026-11-25T03:30:03.620051Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "MES.CME",
+          "volume": 10,
+          "profit": 362.5,
+          "commission": 10
+        },
+        {
+          "openTime": "2026-11-25T05:10:00.176Z",
+          "closeTime": "2026-11-25T05:18:05.369Z",
+          "timestamp": "2026-11-25T05:18:05.390779Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "MES.CME",
+          "volume": 6,
+          "profit": 15,
+          "commission": 6
+        },
+        {
+          "openTime": "2026-11-25T08:20:00.217Z",
+          "closeTime": "2026-11-25T08:24:37.428Z",
+          "timestamp": "2026-11-25T08:24:37.448465Z",
+          "state": "ClosedNormal",
+          "command": "Sell",
+          "tradeSymbol": "MES.CME",
+          "volume": 10,
+          "profit": 25,
+          "commission": 10
+        }
+      ]
+    },
+    {
       "id": "BOT-6192455356057268",
       "ypf_state": "Active",
-      "ypf_balance": 7269.5,
-      "ypf_equity": 6947.0,
-      "trades_balance": 7270.0,
+      "ypf_balance": 6763.5,
+      "ypf_equity": 6686.5,
+      "trades_balance": 6764.0,
       "gap": -0.5,
       "rows": {
         "ClosedNormal/Buy": [
-          29,
-          -2606.5
+          30,
+          -3112.5
         ],
         "ClosedNormal/Sell": [
           43,
           4876.5
         ]
       },
-      "closed_rows": 72,
-      "positions": 72
-    },
-    {
-      "id": "BOT-4579867662555733",
-      "ypf_state": "Active",
-      "ypf_balance": 7718.0,
-      "ypf_equity": 7665.0,
-      "trades_balance": 7718.5,
-      "gap": -0.5,
-      "rows": {
-        "ClosedNormal/Buy": [
-          32,
-          361.0
-        ],
-        "ClosedNormal/Sell": [
-          40,
-          2357.5
-        ]
-      },
-      "closed_rows": 72,
-      "positions": 64
+      "closed_rows": 73,
+      "positions": 73
     },
     {
       "id": "BOT-5580589813051875",
@@ -2587,6 +2809,26 @@
       },
       "closed_rows": 5,
       "positions": 5
+    },
+    {
+      "id": "BOT-4579867662555733",
+      "ypf_state": "Active",
+      "ypf_balance": 8015.5,
+      "ypf_equity": 8015.5,
+      "trades_balance": 8015.5,
+      "gap": 0.0,
+      "rows": {
+        "ClosedNormal/Buy": [
+          32,
+          361.0
+        ],
+        "ClosedNormal/Sell": [
+          41,
+          2654.5
+        ]
+      },
+      "closed_rows": 73,
+      "positions": 65
     },
     {
       "id": "BOT-7254696433719750",
@@ -2760,26 +3002,6 @@
       "closed_rows": 0,
       "positions": 0,
       "excluded": "solde trades"
-    },
-    {
-      "id": "BOT-2058831586213992",
-      "ypf_state": "Active",
-      "ypf_balance": 6502.75,
-      "ypf_equity": 6502.75,
-      "trades_balance": 6502.75,
-      "gap": 0.0,
-      "rows": {
-        "ClosedNormal/Buy": [
-          47,
-          50.75
-        ],
-        "ClosedNormal/Sell": [
-          55,
-          1452.0
-        ]
-      },
-      "closed_rows": 102,
-      "positions": 102
     },
     {
       "id": "BOT-4166629664461868",
