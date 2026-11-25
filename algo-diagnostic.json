@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T17:11:13Z",
+  "updated_at": "2026-11-25T18:11:14Z",
   "history_fields": [
     "accountId",
     "closePrice",
@@ -2178,6 +2178,47 @@
       ]
     },
     {
+      "id": "BOT-4579867662555733",
+      "ypf_state": "Active",
+      "ypf_balance": 7382.0,
+      "ypf_equity": 7390.0,
+      "trades_balance": 7382.5,
+      "gap": -0.5,
+      "rows": {
+        "ClosedNormal/Buy": [
+          32,
+          361.0
+        ],
+        "ClosedNormal/Sell": [
+          42,
+          2021.5
+        ]
+      },
+      "closed_rows": 74,
+      "positions": 66
+    },
+    {
+      "id": "BOT-5985115771848889",
+      "ypf_state": "Active",
+      "ypf_balance": 4369.5,
+      "ypf_equity": 4737.5,
+      "trades_balance": 4370.0,
+      "gap": -0.5,
+      "rows": {
+        "ClosedNormal/Buy": [
+          94,
+          -1013.0
+        ],
+        "ClosedNormal/Sell": [
+          66,
+          383.0
+        ]
+      },
+      "closed_rows": 160,
+      "positions": 160,
+      "excluded": "solde trades"
+    },
+    {
       "id": "BOT-5580589813051875",
       "ypf_state": "Active",
       "ypf_balance": 5000.0,
@@ -2333,26 +2374,6 @@
       "positions": 5
     },
     {
-      "id": "BOT-4579867662555733",
-      "ypf_state": "Active",
-      "ypf_balance": 7382.5,
-      "ypf_equity": 7382.5,
-      "trades_balance": 7382.5,
-      "gap": 0.0,
-      "rows": {
-        "ClosedNormal/Buy": [
-          32,
-          361.0
-        ],
-        "ClosedNormal/Sell": [
-          42,
-          2021.5
-        ]
-      },
-      "closed_rows": 74,
-      "positions": 66
-    },
-    {
       "id": "BOT-7254696433719750",
       "ypf_state": "Active",
       "ypf_balance": 5000.0,
@@ -2395,27 +2416,6 @@
       },
       "closed_rows": 4,
       "positions": 4,
-      "excluded": "solde trades"
-    },
-    {
-      "id": "BOT-5985115771848889",
-      "ypf_state": "Active",
-      "ypf_balance": 4496.0,
-      "ypf_equity": 4496.0,
-      "trades_balance": 4496.0,
-      "gap": 0.0,
-      "rows": {
-        "ClosedNormal/Buy": [
-          94,
-          -1013.0
-        ],
-        "ClosedNormal/Sell": [
-          65,
-          509.0
-        ]
-      },
-      "closed_rows": 159,
-      "positions": 159,
       "excluded": "solde trades"
     },
     {
