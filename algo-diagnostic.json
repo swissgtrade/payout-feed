@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T00:11:14Z",
+  "updated_at": "2026-11-25T01:11:25Z",
   "history_fields": [
     "accountId",
     "closePrice",
@@ -555,34 +555,23 @@
     {
       "id": "BOT-9525503092060538",
       "ypf_state": "Active",
-      "ypf_balance": 2738.61,
-      "ypf_equity": 2688.61,
-      "trades_balance": 4657.11,
-      "gap": -1918.5,
+      "ypf_balance": 2756.11,
+      "ypf_equity": 2772.36,
+      "trades_balance": 4676.11,
+      "gap": -1920.0,
       "rows": {
         "ClosedNormal/Buy": [
-          400,
-          -2365.14
+          401,
+          -2346.14
         ],
         "ClosedNormal/Sell": [
           402,
           2022.25
         ]
       },
-      "closed_rows": 802,
-      "positions": 799,
+      "closed_rows": 803,
+      "positions": 800,
       "recent": [
-        {
-          "openTime": "2026-11-24T18:55:00.278Z",
-          "closeTime": "2026-11-24T19:12:12.041Z",
-          "timestamp": "2026-11-24T19:12:12.059246Z",
-          "state": "ClosedNormal",
-          "command": "Buy",
-          "tradeSymbol": "M2KZ26.CME",
-          "volume": 1,
-          "profit": 20,
-          "commission": 1
-        },
         {
           "openTime": "2026-11-24T18:45:00.401Z",
           "closeTime": "2026-11-24T19:13:17.73Z",
@@ -790,6 +779,17 @@
           "tradeSymbol": "M2KZ26.CME",
           "volume": 1,
           "profit": -7.999999999999545,
+          "commission": 1
+        },
+        {
+          "openTime": "2026-11-25T00:30:01.041Z",
+          "closeTime": "2026-11-25T00:51:04.155Z",
+          "timestamp": "2026-11-25T00:51:04.176589Z",
+          "state": "ClosedNormal",
+          "command": "Buy",
+          "tradeSymbol": "MES.CME",
+          "volume": 1,
+          "profit": 20,
           "commission": 1
         }
       ],
@@ -2465,10 +2465,10 @@
     {
       "id": "BOT-1060364672318105",
       "ypf_state": "Active",
-      "ypf_balance": 9685.0,
-      "ypf_equity": 9685.0,
+      "ypf_balance": 9684.5,
+      "ypf_equity": 9760.0,
       "trades_balance": 9676.0,
-      "gap": 9.0,
+      "gap": 8.5,
       "rows": {
         "ClosedNormal/Buy": [
           145,
@@ -2705,6 +2705,47 @@
       ]
     },
     {
+      "id": "BOT-6192455356057268",
+      "ypf_state": "Active",
+      "ypf_balance": 6890.5,
+      "ypf_equity": 6966.0,
+      "trades_balance": 6891.0,
+      "gap": -0.5,
+      "rows": {
+        "ClosedNormal/Buy": [
+          28,
+          -2375.0
+        ],
+        "ClosedNormal/Sell": [
+          41,
+          4266.0
+        ]
+      },
+      "closed_rows": 69,
+      "positions": 69
+    },
+    {
+      "id": "BOT-2750347923249703",
+      "ypf_state": "Active",
+      "ypf_balance": 3395.5,
+      "ypf_equity": 3471.0,
+      "trades_balance": 3396.0,
+      "gap": -0.5,
+      "rows": {
+        "ClosedNormal/Buy": [
+          37,
+          -4748.5
+        ],
+        "ClosedNormal/Sell": [
+          33,
+          3144.5
+        ]
+      },
+      "closed_rows": 70,
+      "positions": 70,
+      "excluded": "solde trades"
+    },
+    {
       "id": "BOT-5580589813051875",
       "ypf_state": "Active",
       "ypf_balance": 5000.0,
@@ -2814,26 +2855,6 @@
       "positions": 26
     },
     {
-      "id": "BOT-6192455356057268",
-      "ypf_state": "Active",
-      "ypf_balance": 6891.0,
-      "ypf_equity": 6891.0,
-      "trades_balance": 6891.0,
-      "gap": 0.0,
-      "rows": {
-        "ClosedNormal/Buy": [
-          28,
-          -2375.0
-        ],
-        "ClosedNormal/Sell": [
-          41,
-          4266.0
-        ]
-      },
-      "closed_rows": 69,
-      "positions": 69
-    },
-    {
       "id": "BOT-1095984840765706",
       "ypf_state": "Active",
       "ypf_balance": 4517.5,
@@ -2852,27 +2873,6 @@
       },
       "closed_rows": 5,
       "positions": 5,
-      "excluded": "solde trades"
-    },
-    {
-      "id": "BOT-2750347923249703",
-      "ypf_state": "Active",
-      "ypf_balance": 3396.0,
-      "ypf_equity": 3396.0,
-      "trades_balance": 3396.0,
-      "gap": 0.0,
-      "rows": {
-        "ClosedNormal/Buy": [
-          37,
-          -4748.5
-        ],
-        "ClosedNormal/Sell": [
-          33,
-          3144.5
-        ]
-      },
-      "closed_rows": 70,
-      "positions": 70,
       "excluded": "solde trades"
     },
     {
