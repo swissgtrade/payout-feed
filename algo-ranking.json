@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T02:11:20Z",
+  "updated_at": "2026-11-26T04:11:14Z",
   "period": {
     "start": null,
     "end": null
@@ -45,7 +45,7 @@
     }
   ],
   "accounts_tracked": 34,
-  "accounts_in_gain": 9,
+  "accounts_in_gain": 10,
   "ranking": [
     {
       "id": "BOT-4579867662555733",
@@ -558,6 +558,45 @@
       "rank": 5
     },
     {
+      "id": "BOT-5580589813051875",
+      "score": 50,
+      "points": {
+        "net_profit": 0.0,
+        "profit_factor": 15.0,
+        "max_drawdown": 25.0,
+        "sharpe": 0.0,
+        "positive_days": 10.0,
+        "best_day_share": 0.0
+      },
+      "net_profit": 4.0,
+      "return_pct": 0.08,
+      "balance": 5004.0,
+      "max_drawdown": 0.0,
+      "profit_factor": null,
+      "no_losing_trade": true,
+      "sharpe": null,
+      "positive_days": 100.0,
+      "best_day": 4.0,
+      "best_day_share": 100.0,
+      "trades": 1,
+      "days_traded": 1,
+      "markets": [
+        "MES"
+      ],
+      "start_date": "2026-11-24",
+      "curve": [
+        [
+          "2026-11-24",
+          5000.0
+        ],
+        [
+          "2026-11-26",
+          5004.0
+        ]
+      ],
+      "rank": 6
+    },
+    {
       "id": "BOT-2058831586213992",
       "score": 42,
       "points": {
@@ -667,7 +706,7 @@
           7219.0
         ]
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "id": "BOT-2553006837027769",
@@ -727,7 +766,7 @@
           5427.0
         ]
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "id": "BOT-4683373916715982",
@@ -794,7 +833,7 @@
           5248.5
         ]
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "id": "BOT-6192455356057268",
@@ -877,7 +916,7 @@
           6258.0
         ]
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
