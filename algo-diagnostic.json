@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T07:11:14Z",
+  "updated_at": "2026-11-26T08:11:15Z",
   "history_fields": [
     "accountId",
     "closePrice",
@@ -2181,7 +2181,7 @@
       "id": "BOT-5580589813051875",
       "ypf_state": "Active",
       "ypf_balance": 5010.5,
-      "ypf_equity": 4923.0,
+      "ypf_equity": 4949.0,
       "trades_balance": 5011.0,
       "gap": -0.5,
       "rows": {
