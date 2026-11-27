@@ -1,7 +1,19 @@
 {
-  "updated_at": "2026-11-27T14:11:52Z",
-  "total_amount": 276631.72,
+  "updated_at": "2026-11-27T22:38:52Z",
+  "total_amount": 279232.72,
   "payouts": [
+    {
+      "name": "CHINASA",
+      "amount": "$630.00",
+      "status": "Versé",
+      "image": "certs/6b00711d483c6c2f20fc1e15.png"
+    },
+    {
+      "name": "GREGORY",
+      "amount": "$1,971.00",
+      "status": "Versé",
+      "image": "certs/6afdeed23527246879bdce0f.png"
+    },
     {
       "name": "FREDERIC",
       "amount": "$1,800.00",
@@ -49,18 +61,6 @@
       "amount": "$1,800.00",
       "status": "Versé",
       "image": "certs/6ad016219813a153084d7643.png"
-    },
-    {
-      "name": "ADAM",
-      "amount": "$1,800.00",
-      "status": "Versé",
-      "image": "certs/6ac98692e64b56cd50d6c23f.png"
-    },
-    {
-      "name": "BERTRAND",
-      "amount": "$1,800.00",
-      "status": "Versé",
-      "image": "certs/6ac858f1d46da370687ef6b3.png"
     }
   ]
 }
